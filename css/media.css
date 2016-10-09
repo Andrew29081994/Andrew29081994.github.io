@@ -1,0 +1,18 @@
+@media screen and (max-width:500px){
+	nav li{
+		display: block;
+		text-align: center;
+	}
+	nav a{
+		border-bottom: 1px solid #A49C7A;
+	}
+	nav ul{
+		display: none;
+	}
+	
+	.menu-trigger{
+		width: 100%;
+		display: block;
+		text-align: left;
+	}
+} 
