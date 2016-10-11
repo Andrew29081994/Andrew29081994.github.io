@@ -51,20 +51,40 @@ body {
 	background-color: #DCCB87;
 	font-family: Arial, sans-serif;
 }
-
+.header{
+	height: 800px;
+	text-align: center;
+}
+.headerBg{
+	position: relative;
+	background: url(../images/header.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.navBg{
+	background-color: rgba(70, 93, 72, 0.7);
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
 nav {
 	width: 100%;
-	background-color: #465D48;
 }
 nav li{
 	display: inline-block;
 }
 nav a{
 	display: block;
+	width: 150px;
 	text-decoration: none;
 	color: #DCCB87;
 	padding: 20px;
-
+	text-transform: uppercase;
 }
 nav a:hover{
 	background-color: #C15649;
@@ -73,8 +93,20 @@ nav a:hover{
 	text-align: center;
 	display: none;
 }
-.bgMenu{
-	background-color: #465D48;
+h1{
+	margin-top: 60px !important;
+}
+/*
+  ========================================
+  Приветствие и описание сайта
+  ========================================
+*/
+.hello{
+	width: 100%;
+	text-align: center;
+}
+.pennant{
+
 }
 /*
   ========================================
@@ -84,11 +116,25 @@ nav a:hover{
 .flexContainer{
 	display: flex;
 }
-.main{
-	width: 50%;
-	height: 200px;
+.item{
+	width: 33.333333333%;
+	height: 400px;
 }
-.sidebar{
-	height: 200px;
-	width: 30%;
+/*
+  ========================================
+  Стили кнопок
+  ========================================
+*/
+.btn {
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-top: 40px;
+  padding: 10px 20px 10px 20px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #465D48; 
 }
