@@ -93,7 +93,7 @@ nav li{
 }
 nav a{
 	display: block;
-	width: 150px;
+	width: 150px !important;
 	text-decoration: none;
 	color: #DCCB87;
 	padding: 20px;
@@ -118,8 +118,19 @@ h1{
 	width: 100%;
 	text-align: center;
 }
-.pennant{
-
+/*
+  ========================================
+  Основная часть
+  ========================================
+*/
+.mainBg{
+	background-color: rgba(255,255,255,.6);
+}
+.img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
 }
 /*
   ========================================
@@ -131,7 +142,57 @@ h1{
 }
 .item{
 	width: 33.333333333%;
-	height: 400px;
+	/*height: 450px;*/
+
+}
+.flexContainer2{
+	display: flex;
+
+}
+.item2{
+	margin-top: 50px;
+	text-align: center;
+	padding: 20px;
+}
+.marginBottom{
+	margin-bottom: 50px;
+}
+/*
+  ========================================
+  Секция с оверлеем
+  ========================================
+*/
+.overley{
+	position: relative;
+	text-align: center;
+	background: url(../images/header.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	}
+.overley:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.6);
+}	
+.overley blockquote{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	border: none;
+	margin: 0;
+	font-weight: 300;
+	font-size: 24px;
+	font-style: italic;
+	color: rgba(255,255,255,.6);
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: rgba(255,255,255,.1);
 }
 /*
   ========================================
@@ -146,7 +207,8 @@ h1{
   font-weight: 400;
   letter-spacing: .5px;
   margin-top: 40px;
-  padding: 10px 20px 10px 20px; 
+  margin-bottom: 40px;
+  padding: 15px 25px 15px 25px; 
   text-transform: uppercase;
   text-decoration: none;
   background-color: #465D48; 
