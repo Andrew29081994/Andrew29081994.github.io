@@ -100,7 +100,7 @@ nav a{
 	text-transform: uppercase;
 }
 nav a:hover{
-	background-color: #BA0101;
+	background-color: #420013;
 }
 .menu-trigger{
 	text-align: center;
@@ -302,6 +302,7 @@ footer .byline{
 	background-color: rgba(1, 1, 28, 1); 
 	transition-property: background-color;
 	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
 }
 .btn:hover{
 	background-color: #420013;
