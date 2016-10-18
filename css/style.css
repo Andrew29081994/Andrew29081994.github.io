@@ -168,8 +168,8 @@ h1{
 	background: url(../images/header.jpg) no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 90px;
+	padding-bottom: 90px;
 	}
 .overley:before{
 	content: '';
@@ -195,6 +195,94 @@ h1{
 	border-color: rgba(255,255,255,.1);
 }
 /*
+  ========================================
+  Футер
+  ========================================
+*/
+footer{
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+footer h1{
+	margin: 0;
+}
+footer .byline{
+	font-size: 25px;
+	margin-top: 40px;
+	color: rgba(255,255,255,.2);
+	}
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		padding: 1.5em 0 0 0;
+		list-style: none;
+		cursor: default;
+		margin-bottom: 80px; 
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		margin: 0 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		text-decoration: none;
+		color: inherit;
+		font-size: 1.75em;
+		display: inline-block;
+		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	}
+	
+	ul.contact li a:hover
+	{
+		color: #fff;
+	}
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	
+	#copyright
+	{
+		position: relative;
+		text-align: center;
+		color: #774535;
+	}
+	
+	#copyright .container
+	{
+		padding: 3em 0em;
+		border-top: 1px solid;
+		border-color: rgba(255,255,255,.08);
+		color:  rgba(255,255,255,.1);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color:  rgba(255,255,255,.2);
+	}
+	.copyrightBg{
+		background-color: black;
+	}	
+/*	
   ========================================
   Стили кнопок
   ========================================
