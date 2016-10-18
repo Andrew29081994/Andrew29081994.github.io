@@ -48,7 +48,7 @@ content: none;
   ========================================
 */
 body {
-	background-color: #F7F6F4;
+	background-color: #D2C0AB;
 	font-family: Arial, sans-serif;
 }
 .header{
@@ -78,7 +78,7 @@ body {
 	color: black;
 } 
 .navBg{
-	background-color: rgba(70, 93, 72, 0.7);
+	background-color: rgba(1, 1, 28, 0.7);
 }
 nav ul{
 	margin: 0;
@@ -95,12 +95,12 @@ nav a{
 	display: block;
 	width: 150px !important;
 	text-decoration: none;
-	color: #F7F6F4;
+	color: #A69682;
 	padding: 20px;
 	text-transform: uppercase;
 }
 nav a:hover{
-	background-color: #C15649;
+	background-color:#B11623;
 }
 .menu-trigger{
 	text-align: center;
@@ -124,7 +124,7 @@ h1{
   ========================================
 */
 .mainBg{
-	background-color: #FCFFED;
+	background-color: #DAD7CD;
 }
 .img{
 	display: block;
@@ -288,16 +288,21 @@ footer .byline{
   ========================================
 */
 .btn {
-  border-radius: 6px;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  letter-spacing: .5px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 15px 25px 15px 25px; 
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: #465D48; 
+	border-radius: 6px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: .5px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 15px 25px 15px 25px; 
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: rgba(1, 1, 28, 1); 
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+.btn:hover{
+	background-color: #420013;
 }
