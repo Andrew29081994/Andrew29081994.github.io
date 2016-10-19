@@ -48,15 +48,16 @@ content: none;
   ========================================
 */
 body {
-	background-color: #D2C0AB;
+	background-color: #F8F2ED;
 	font-family: Arial, sans-serif;
 }
 .header{
-	height: 800px;
 	text-align: center;
+	height: 600px;
 }
 .headerBg{
 	position: relative;
+	height: 900px;
 	background: url(../images/header.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -64,21 +65,24 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 }
-#logo a{
+.logo{
+	color: #fff;
+}
+.logo a{
 	display: block;
 	text-decoration: none;
-	color: black;
 	margin-top: 150px;
 	font-size: 90px; 
+	color: #fff;
 	}
-#logo h1{
+.logo h1{
 	margin-bottom: 10px;
 }
 .tag{
-	color: black;
+	color: #fff;
 } 
 .navBg{
-	background-color: rgba(1, 1, 28, 0.6);
+	background-color: rgba(204, 145, 102, 0.40);
 }
 nav ul{
 	margin: 0;
@@ -95,12 +99,15 @@ nav a{
 	display: block;
 	width: 150px !important;
 	text-decoration: none;
-	color: #A69682;
+	color: #F8F2ED;
 	padding: 20px;
 	text-transform: uppercase;
+	transition-property: background-color;
+	transition-duration: .25s;
+	transition-timing-function: ease-in-out;
 }
 nav a:hover{
-	background-color: #420013;
+	background-color: rgba(240, 127, 112, 0.66);
 }
 .menu-trigger{
 	text-align: center;
@@ -124,7 +131,7 @@ h1{
   ========================================
 */
 .mainBg{
-	background-color: #DAD7CD;
+	background-color: #FFFCF5;
 }
 .img{
 	display: block;
@@ -299,11 +306,11 @@ footer .byline{
 	padding: 15px 25px 15px 25px; 
 	text-transform: uppercase;
 	text-decoration: none;
-	background-color: rgba(1, 1, 28, 1); 
+	background-color: rgba(204, 145, 102, 1); 
 	transition-property: background-color;
-	transition-duration: 1s;
+	transition-duration: .75s;
 	transition-timing-function: ease-in-out;
 }
 .btn:hover{
-	background-color: #420013;
+	background-color: rgba(240, 127, 112, 1);
 }
