@@ -12,7 +12,7 @@
 		background-attachment: scroll; 
 	}
 	.navBg{
-	background-color: #465d48;
+	background-color: rgba(1, 1, 28, 1);
 	}
 	#logo{
 		display: none;
