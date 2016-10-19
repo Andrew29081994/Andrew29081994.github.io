@@ -216,10 +216,11 @@ footer{
 	background-color: #161616;
 	color: #fff;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 1px;
 }
 footer h1{
-	margin-top: 80px !important;
+	margin-top: 60px !important;
+	margin-bottom: 30px !important;
 }
 footer .byline{
 	font-size: 25px;
@@ -235,7 +236,7 @@ footer .byline{
 		padding: 1.5em 0 0 0;
 		list-style: none;
 		cursor: default;
-		margin-bottom: 80px; 
+		margin-bottom: 60px; 
 	}
 	
 	ul.contact li
