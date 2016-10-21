@@ -3,7 +3,7 @@
 }
 .hello span{
 	display: block;
-	color: rgba(240, 127, 112, 0.66);
+	color: rgba(240, 127, 112, 1);
 	text-transform: uppercase;
 	font-size: 72px;
 	font-weight: 500; 
