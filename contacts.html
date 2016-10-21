@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Andrushka Mizantrop</title>
+	<link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/contacts.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!--Header-->
+		<div class="header header-contactsBg">
+		<div class="navBg">
+			<div class="container">
+				<div class="row">
+    				<div class="twelwe columns">
+						<nav class="menu">
+							<a href="#" class="menu-trigger">Menu<i class="fa fa-cog fa-spin  fa-fw"></i></a>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Gallery</a></li>
+								<li><a href="#">Music</a></li>
+								<li><a href="contacts.html">Contacts</a></li>
+							</ul>
+						</nav>
+    				</div>
+  				</div>
+			</div>
+		</div>
+		<div class="logo">
+			<h1><a href="#">Bred</a></h1>
+			<span class="tag">By ANDRUSHKA</span>
+		</div>
+	</div>
+
+<!--Приветствие и описание сайта-->
+<div class="container">
+	<div class="hello">
+		<h3 class="fontSize">&lsquo;Once a year, go someplace you’ve never been before&rsquo;</h3>
+		<p>If you have already packed up and ready to go, but you<br> still have questions, feel free to ask</p>
+		<hr>
+		<div class="alignLeft">
+			<span>Contact Us</span>
+		</div>
+		<div class="flexContacts">
+			<div class="item1-1">
+			<ul class="icons">
+				<li><i class="fa fa-user" aria-hidden="true"></i></li>
+				<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+			    <li><i class="fa fa-pencil" aria-hidden="true"></i></li>
+			</ul>
+			</div>
+			<div class="item1-2">
+				<form action="" id="contactsForm">
+					<input type="text" placeholder="Your name">
+					<input type="email" name="email-address" placeholder="Your email">
+					<input type="textarea">
+				</form>
+			</div>
+			<div class="item1-3">
+				Travel Logo<br><br>
+				Nezalezhnosti st<br>
+				12<br>
+				Brovary<br>
+				UA 7400<br>
+				<br>
+				(063) 381 3808<br>
+				(093) 722 6039<br><br>
+				travelsun@gmail.com<br><br>
+			</div>
+		</div>
+	</div>
+</div>	
+
+<!--Основная часть-->
+
+
+<!--Секция с оверлеем-->
+<div class="overley-contacts">
+	<div class="container">
+			<blockquote>&ldquo;We travel, some of us forever, to seek
+other places, other lives, other souls&rdquo;</blockquote>
+	</div>
+</div>
+
+<!-Footer->
+<footer>
+	<div class="container">
+		<h1>Get in touch</h1>
+		<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+		<ul class="contact">
+			<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+			<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+			<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
+			<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
+		</ul>
+	</div>
+</footer>
+
+<!-- Copyright -->
+<div class="copyrightBg">
+	<div id="copyright">
+		<div class="container">
+			Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+		</div>
+	</div>
+</div>
+<!--
+  ========================================
+  JS	
+  ========================================
+-->
+<!--<script type="text/javascript">
+ 	$(document).ready(function(){
+ 	alert(jQuery.fn.jquery);
+ });
+ </script>-->
+<script>
+	$(document).ready(function(){
+		$('.menu-trigger').click(function(){
+			$('nav ul').slideToggle(500);	
+		});//end click
+
+	$(window).resize(function() {		
+		if (  $(window).width() > 500 ) {			
+			$('nav ul').removeAttr('style');
+		 }
+		});//end resize
+	$('nav i').hover(function(){ //крутится при наведении мыши
+		$(this).addClass(fa-spin);	
+	});//end hover 
+	});//end ready 
+</script>
+</body>
+</html>
