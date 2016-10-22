@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$("#contactsForm").submit(function() {
+	$("#form").submit(function() {
 		$.ajax({
 			type: "POST",
 			url: "mail.php",
@@ -8,7 +8,7 @@ $(document).ready(function() {
 		}).done(function() {
 			$(this).find("input").val("");
 			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-			$("#contactsForm").trigger("reset");
+			$("#form").trigger("reset");
 		});
 		return false;
 	});

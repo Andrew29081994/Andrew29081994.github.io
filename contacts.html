@@ -9,7 +9,7 @@
 	<link href="css/skeleton.css" rel="stylesheet">
 	<link href="css/media.css" rel="stylesheet">
 	<link href="css/font-awesome.css" rel="stylesheet">
-	<script src="js/jquery-3.1.1.min.js"></script>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -57,14 +57,11 @@
 			    <li><i class="fa fa-pencil" aria-hidden="true"></i></li>
 			</ul>
 			</div>
-			<div class="item1-2">
-				<form action="" id="contactsForm">
-					<input type="text" placeholder="Your name" name="username" required>
-					<input type="email" name="email-address" placeholder="Your email" required>
-					<textarea name="comment" required></textarea>
-					<button name="submit" class="btnContacts">
-  						SUBMIT
-					</button>
+			<div class="item1-2"> 
+				<form id="form">
+					<input type="text" name="name" placeholder="Ваше имя" required /><br />
+					<input type="text" name="phone" placeholder="Ваш телефон" required /><br />
+					<button>Отправить</button>
 				</form>
 			</div>
 			<div class="item1-3">
@@ -89,7 +86,7 @@
 <div class="overley-contacts">
 	<div class="container">
 			<blockquote>&ldquo;We travel, some of us forever, to seek
-other places, other lives, other souls&rdquo;</blockquote>
+			other places, other lives, other souls&rdquo;</blockquote>
 	</div>
 </div>
 
@@ -123,8 +120,8 @@ other places, other lives, other souls&rdquo;</blockquote>
 <!--<script type="text/javascript">
  	$(document).ready(function(){
  	alert(jQuery.fn.jquery);
- });
- </script>-->
+ });-->
+ </script>
 <script>
 	$(document).ready(function(){
 		$('.menu-trigger').click(function(){
@@ -141,5 +138,7 @@ other places, other lives, other souls&rdquo;</blockquote>
 	});//end hover 
 	});//end ready 
 </script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="common.js"></script>
 </body>
 </html>
