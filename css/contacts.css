@@ -109,7 +109,7 @@ select:focus {
 	padding: 5px 20px;
 	border: none;
 	color: #FFFCF5;
-	font-size: 25px; 
+	font-size: 20px; 
 	background-color: rgba(240, 127, 112, 1);
 	border-radius: 25px;
 }
