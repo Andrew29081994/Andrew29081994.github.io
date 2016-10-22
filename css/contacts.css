@@ -83,7 +83,7 @@ select {
   font-size: 18px;
 }
 textarea{
-	height: 100px;
+	height: 160px;
 	max-height: 250px;
 }
 input[type="email"]:focus,
@@ -100,16 +100,16 @@ select:focus {
   color: #666565;
   outline: 0; }
 
-#contactsForm{
+#form{
 	text-align: right;
 }
 /*Кнопки*/
 .btnContacts{
 	cursor: pointer;
-	padding: 5px 15px;
+	padding: 5px 20px;
 	border: none;
 	color: #FFFCF5;
-	font-size: 20px; 
+	font-size: 25px; 
 	background-color: rgba(240, 127, 112, 1);
 	border-radius: 25px;
 }
