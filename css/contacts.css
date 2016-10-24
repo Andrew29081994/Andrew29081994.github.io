@@ -1,3 +1,8 @@
+/*
+  ========================================
+  Общие стили Contacts	
+  ========================================
+*/
 .navBgContacts{
 	background-color: rgba(204, 145, 102, 0.70);
 }
@@ -10,42 +15,50 @@
 	text-transform: uppercase;
 	font-size: 70px;
 	font-weight: 500;
-	margin-bottom: 40px; 
+	margin-bottom: 30px;
 }
 .marginBottom{
 	margin-bottom: 80px; 
-}
+}/*Говнокод*/
+.marginBottomHR{
+	margin-bottom: 50px; 
+}/*Говнокод*/
 .fontSize{
 	font-size: 36px;
 }
-/*Flex*/
+/*
+  ========================================
+  Flex елементы	
+  ========================================
+*/
 .flexContacts{
 	display: flex;
 }
 .item1-1{
-	width: 53px;
+	width: 53px;/*Говнокод переделать в %*/
 	padding-top: 10px;
-	margin-right: 13px;
+	margin-right: 13px;/*Говнокод*/
 }
 .item1-2{
-	width: 493px;
+	width: 493px;/*Говнокод переделать в %*/
 	margin-right: 40px;
 }
 .item1-3{
-	width: 601px;
+	width: 601px;/*Говнокод переделать в %*/
 	background-color: #C6A187;
 	border-radius: 7px;
-	margin-top: 10px;
+	margin-top: 10px;/*Говнокод*/
 	margin-bottom: 80px;
 	padding-left: 40px;
 	padding-top: 40px;
 	font-size: 20px; 
 	text-align: left;
 }
-/*Список*/
-.icons{
-
-}
+/*
+  ========================================
+  Списки	
+  ========================================
+*/
 .icons li{
 	list-style-type: none; 
 	background-color: #C6A187;
@@ -54,16 +67,17 @@
 	padding: 12px;
 	margin-bottom: 40px;
 }
-/*.icons li:hover{
-	background-color: rgba(240, 127, 112, 1);
-}*/
 .iconsBg{
 	background-color: rgba(240, 127, 112, 1) !important;
 }
 .icons i{
 	font-size: 26px;
 }
-/*Forms*/
+/*
+  ========================================
+  Формы	
+  ========================================
+*/
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -74,11 +88,11 @@ input[type="password"],
 textarea,
 select {
   width: 100%;
-  max-width: 493px;
-  min-width: 493px;
-  height: 53px;
-  margin-top: 11px;
-  margin-bottom: 30px;
+  max-width: 493px;/*Говнокод*/
+  min-width: 493px;/*Говнокод*/
+  height: 53px;/*Говнокод*/
+  margin-top: 11px;/*Говнокод*/
+  margin-bottom: 30px;/*Говнокод*/
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #E5CDBC;
   border: 1px solid #E5CDBC;
@@ -89,7 +103,7 @@ select {
   font-size: 18px;
 }
 textarea{
-	height: 160px;
+	height: 160px;/*Говнокод*/
 	max-height: 160px;
 }
 input[type="email"]:focus,
@@ -109,7 +123,11 @@ select:focus {
 #form{
 	text-align: right;
 }
-/*Кнопки*/
+/*
+  ========================================
+  Кнопки	
+  ========================================
+*/
 .btnContacts{
 	cursor: pointer;
 	padding: 5px 20px;
@@ -119,4 +137,9 @@ select:focus {
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: rgba(240, 127, 112, 1);
 	border-radius: 25px;
+	transition-property: background-color;
+	transition-duration: .75s;
+}
+.btnContacts:hover{
+	background-color: rgba(240, 127, 112, .8);
 }
