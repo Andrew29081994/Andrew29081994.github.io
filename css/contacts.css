@@ -2,15 +2,21 @@
 	background-color: rgba(204, 145, 102, 0.70);
 }
 .alignLeft{
-	text-align: left; 
+	text-align: left;
 }
-.hello span{
+.hello span {
 	display: block;
 	color: rgba(240, 127, 112, 1);
 	text-transform: uppercase;
-	font-size: 72px;
-	font-weight: 500; 
-	margin-bottom: 20px;
+	font-size: 70px;
+	font-weight: 500;
+	margin-bottom: 40px; 
+}
+.marginBottomHR{
+	margin-bottom: 50px;
+}
+.marginBottom{
+	margin-bottom: 80px; 
 }
 .fontSize{
 	font-size: 36px;
@@ -51,8 +57,11 @@
 	padding: 12px;
 	margin-bottom: 40px;
 }
-.icons li:hover{
+/*.icons li:hover{
 	background-color: rgba(240, 127, 112, 1);
+}*/
+.iconsBg{
+	background-color: rgba(240, 127, 112, 1) !important;
 }
 .icons i{
 	font-size: 26px;
@@ -84,7 +93,7 @@ select {
 }
 textarea{
 	height: 160px;
-	max-height: 250px;
+	max-height: 160px;
 }
 input[type="email"]:focus,
 input[type="number"]:focus,
@@ -97,7 +106,7 @@ textarea:focus,
 select:focus {
   background-color: #C6A187;
   border: 1px solid #C6A187;
-  color: #666565;
+  color: #4B4A4A;
   outline: 0; }
 
 #form{

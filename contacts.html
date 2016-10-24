@@ -9,13 +9,14 @@
 	<link href="css/skeleton.css" rel="stylesheet">
 	<link href="css/media.css" rel="stylesheet">
 	<link href="css/font-awesome.css" rel="stylesheet">
-	
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="common.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
 <!--Header-->
-	<div class="header header-contactsBg">
+	<div class="header header-contactsBg marginBottom">
 		<div class="navBgContacts">
 			<div class="container">
 				<div class="row">
@@ -43,25 +44,25 @@
 <!--Приветствие и описание сайта-->
 <div class="container">
 	<div class="hello">
-		<h3 class="fontSize">&lsquo;Once a year, go someplace you’ve never been before&rsquo;</h3>
+		<!--<h3 class="fontSize">&lsquo;Once a year, go someplace you’ve never been before&rsquo;</h3>-->
 		<p>If you have already packed up and ready to go, but you<br> still have questions, feel free to ask</p>
-		<hr>
+		<hr class="marginBottomHR">
 		<div class="alignLeft">
 			<span>Contact Us</span>
 		</div>
 		<div class="flexContacts">
 			<div class="item1-1">
 			<ul class="icons">
-				<li><i class="fa fa-user" aria-hidden="true"></i></li>
-				<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
-			    <li><i class="fa fa-pencil" aria-hidden="true"></i></li>
+				<li id="user"><i class="fa fa-user" aria-hidden="true"></i></li>
+				<li id="email"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+			    <li id="comment"><i class="fa fa-pencil" aria-hidden="true"></i></li>
 			</ul>
 			</div>
 			<div class="item1-2"> 
 				<form id="form">
-					<input type="text" name="name" placeholder="Your name" required/>
-					<input type="email" name="email" placeholder="Your email" required/>
-					<textarea name="text" required ></textarea>
+					<input type="text" id="text" name="name" placeholder="Your name" required/>
+					<input type="email" id="emailAdress" name="email" placeholder="Your email" required/>
+					<textarea name="text" id="message" required ></textarea>
 					<button class="btnContacts">SUBMIT</button>
 				</form>
 			</div>
@@ -121,8 +122,8 @@
 <!--<script type="text/javascript">
  	$(document).ready(function(){
  	alert(jQuery.fn.jquery);
- });-->
- </script>
+ });
+ </script>-->
 <script>
 	$(document).ready(function(){
 		$('.menu-trigger').click(function(){
@@ -134,9 +135,18 @@
 			$('nav ul').removeAttr('style');
 		 }
 		});//end resize
-	$('nav i').hover(function(){ //крутится при наведении мыши
-		$(this).addClass(fa-spin);	
-	});//end hover 
+	$('#text').hover(
+		function(){ $('ul.icons li#user').addClass("iconsBg"); },
+		function(){ $('ul.icons li#user').removeClass("iconsBg"); }
+		);//end hover
+	$('#emailAdress').hover(
+		function(){ $('ul.icons li#email').addClass("iconsBg"); },
+		function(){ $('ul.icons li#email').removeClass("iconsBg"); }
+		);//end hover
+	$('#message').hover(
+		function(){ $('ul.icons li#comment').addClass("iconsBg"); },
+		function(){ $('ul.icons li#comment').removeClass("iconsBg"); }
+		);//end hover
 	});//end ready 
 </script>
 <script src="js/jquery-3.1.1.min.js"></script>
