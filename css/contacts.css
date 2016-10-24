@@ -141,5 +141,5 @@ select:focus {
 	transition-duration: .75s;
 }
 .btnContacts:hover{
-	background-color: rgba(240, 127, 112, .8);
+	background-color: #E76150;
 }
