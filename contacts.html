@@ -46,7 +46,7 @@
 	<div class="hello">
 		<!--<h3 class="fontSize">&lsquo;Once a year, go someplace you’ve never been before&rsquo;</h3>-->
 		<p>If you have already packed up and ready to go, but you<br> still have questions, feel free to ask</p>
-		<hr class="marginBottomHR">
+		<hr>
 		<div class="alignLeft">
 			<span>Contact Us</span>
 		</div>
@@ -62,7 +62,7 @@
 				<form id="form">
 					<input type="text" id="text" name="name" placeholder="Your name" required/>
 					<input type="email" id="emailAdress" name="email" placeholder="Your email" required/>
-					<textarea name="text" id="message" required ></textarea>
+					<textarea name="text" id="message" placeholder="Your message" required ></textarea>
 					<button class="btnContacts">SUBMIT</button>
 				</form>
 			</div>
@@ -92,7 +92,7 @@
 	</div>
 </div>
 
-<!-Footer->
+<!--footer-->
 <footer>
 	<div class="container">
 		<h1>Get in touch</h1>
@@ -135,7 +135,7 @@
 			$('nav ul').removeAttr('style');
 		 }
 		});//end resize
-	$('#text').hover(
+	/*$('#text').hover(
 		function(){ $('ul.icons li#user').addClass("iconsBg"); },
 		function(){ $('ul.icons li#user').removeClass("iconsBg"); }
 		);//end hover
@@ -146,7 +146,25 @@
 	$('#message').hover(
 		function(){ $('ul.icons li#comment').addClass("iconsBg"); },
 		function(){ $('ul.icons li#comment').removeClass("iconsBg"); }
-		);//end hover
+		);//end hover*/
+	$('#text').focusin(
+		function(){ $('ul.icons li#user').addClass("iconsBg"); }
+		);//end focusin
+	$('#text').focusout(
+		function(){ $('ul.icons li#user').removeClass("iconsBg"); }
+		);//end focusout
+	$('#emailAdress').focusin(
+		function(){ $('ul.icons li#email').addClass("iconsBg"); }
+		);//end focusin
+	$('#emailAdress').focusout(
+		function(){ $('ul.icons li#email').removeClass("iconsBg"); }
+		);//end focusout
+	$('#message').focusin(
+		function(){ $('ul.icons li#comment').addClass("iconsBg"); }
+		);//end focusin
+	$('#message').focusout(
+		function(){ $('ul.icons li#comment').removeClass("iconsBg"); }
+		);//end focusout
 	});//end ready 
 </script>
 <script src="js/jquery-3.1.1.min.js"></script>

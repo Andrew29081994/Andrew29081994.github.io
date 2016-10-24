@@ -12,9 +12,6 @@
 	font-weight: 500;
 	margin-bottom: 40px; 
 }
-.marginBottomHR{
-	margin-bottom: 50px;
-}
 .marginBottom{
 	margin-bottom: 80px; 
 }
@@ -119,6 +116,7 @@ select:focus {
 	border: none;
 	color: #FFFCF5;
 	font-size: 20px; 
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: rgba(240, 127, 112, 1);
 	border-radius: 25px;
 }
