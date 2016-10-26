@@ -1,3 +1,4 @@
+
 /*
   ========================================
   Общие стили Contacts	
@@ -35,16 +36,16 @@
 	display: flex;
 }
 .item1-1{
-	width: 53px;/*Говнокод переделать в %*/
+	width: 5%;/*Говнокод переделать в %*/
 	padding-top: 10px;
 	margin-right: 13px;/*Говнокод*/
 }
 .item1-2{
-	width: 493px;/*Говнокод переделать в %*/
+	width: 45%;/*Говнокод переделать в %*/
 	margin-right: 40px;
 }
 .item1-3{
-	width: 601px;/*Говнокод переделать в %*/
+	width: 50%;/*Говнокод переделать в %*/
 	background-color: #C6A187;
 	border-radius: 7px;
 	margin-top: 10px;/*Говнокод*/
@@ -88,8 +89,6 @@ input[type="password"],
 textarea,
 select {
   width: 100%;
-  max-width: 493px;/*Говнокод*/
-  min-width: 493px;/*Говнокод*/
   height: 53px;/*Говнокод*/
   margin-top: 11px;/*Говнокод*/
   margin-bottom: 30px;/*Говнокод*/
