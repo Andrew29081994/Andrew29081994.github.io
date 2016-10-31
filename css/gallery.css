@@ -67,11 +67,44 @@
 	background: url(../images/11.jpg) no-repeat center center;
 	background-attachment: scroll;
 	background-size: cover;
-	padding: 40px;
+	padding:  40px;
 	margin-bottom: 40px;
 	margin-right: 40px;
 	text-align: left;
+	cursor: pointer;
 }
+.date{
+	font-family: 'Marck Script', cursive;
+	font-size: 24px;
+	color: rgba(240, 127, 112, 1);
+}
+.place{
+	font-size: 36px;
+	color: #F8F2ED;
+}
+.place2{
+	font-size: 18px;
+	color: #F8F2ED;
+	font-family: 'Open Sans', sans-serif;
+}
+.itemG-1:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.7);	
+}
+.itemG-1:hover:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.25);	
+}	
 .itemG-2{
 	width: 50%;
 	height: 350px;
@@ -82,6 +115,25 @@
 	padding: 40px;
 	margin-bottom: 40px;
 	text-align: left;
+	cursor: pointer;
+}
+.itemG-2:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.7);	
+}
+.itemG-2:hover:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.25);	
 }
 .itemG-3{
 	width: 50%;
@@ -94,6 +146,25 @@
 	margin-bottom: 80px;
 	margin-right: 40px;
 	text-align: left;
+	cursor: pointer;
+}
+.itemG-3:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.7);	
+}
+.itemG-3:hover:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.25);	
 }
 .itemG-4{
 	width: 50%;
@@ -105,8 +176,29 @@
 	padding: 40px;
 	margin-bottom: 80px;
 	text-align: left;
+	cursor: pointer;
+}
+.itemG-4:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.7);	
+}
+.itemG-4:hover:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.25);	
 }
 .flex_gallery hr{
 	margin: 0 !important;
-	width: 200px;
+	width: 360px;
+	border-width: 0;
+    border-top: 1px solid #F8F2ED;
 }
