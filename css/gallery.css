@@ -76,13 +76,12 @@
 }
 .descr{
 	position: absolute;
-	top: 0;
+	top: 100%;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	padding: 40px;
 	background-color: rgba(0, 0, 0, .5);
-	transform: scale(0);
 	transition: all .5s;
 	-webkit-transition: all .6s;
 	-o-transition: all .6s;
@@ -90,8 +89,8 @@
 
 }
 .itemG-1:hover .descr{
-	opacity: 1;
-	transform: scale(1);	
+	top: 0;
+	opacity: 1;	
 }
 .date{
 	font-family: 'Marck Script', cursive;
@@ -118,10 +117,11 @@
 	margin-bottom: 40px;
 	text-align: left;
 	cursor: pointer;
+	overflow: hidden;
 }
 .itemG-2:hover .descr{
-	opacity: 1;
-	transform: scale(1);	
+	top: 0;
+	opacity: 1;	
 }
 .itemG-3{
 	width: 50%;
@@ -135,10 +135,11 @@
 	margin-right: 40px;
 	text-align: left;
 	cursor: pointer;
+	overflow: hidden;
 }
 .itemG-3:hover .descr{
-	opacity: 1;
-	transform: scale(1);	
+	top: 0;
+	opacity: 1;	
 }
 .itemG-4{
 	width: 50%;
@@ -151,10 +152,11 @@
 	margin-bottom: 80px;
 	text-align: left;
 	cursor: pointer;
+	overflow: hidden;
 }
 .itemG-4:hover .descr{
-	opacity: 1;
-	transform: scale(1);	
+	top: 0;
+	opacity: 1;	
 }
 .flex_gallery hr{
 	width: 360px;
