@@ -1,0 +1,125 @@
+/*
+  ========================================
+  Общие стили Galleryin
+  ========================================
+*/
+.navBgContacts{
+	background-color: rgba(204, 145, 102, 0.70);
+}
+.header_galleryBg{
+	position: relative;
+	background: url(../images/55.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+/*
+  ========================================
+  Секция с оверлеем
+  ========================================
+*/
+.overley-gallery{
+	position: relative;
+	text-align: center;
+	background: url(../images/12.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.overley-gallery:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(64,64,64,0.5);
+}
+.overley-gallery blockquote{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	border: none;
+	margin: 0;
+	font-weight: 300;
+	font-size: 28px;
+	font-style: italic;
+	color: rgba(255,255,255,.6);
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: rgba(255,255,255,.1);
+}
+/*
+  ========================================
+  Flex елементы	
+  ========================================
+*/
+.flex_gallery{
+	display: flex;
+}
+.itemG-1{
+	width: 30%;
+	height: 250px;
+	position: relative;
+	background: url(../images/gi1.jpg) no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.itemG-2{
+	width: 70%;
+	height: 250px;
+	position: relative;
+	background: url(../images/gi2.jpg) no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.itemG-3{
+	width: 70%;
+	height: 250px;
+	position: relative;
+	background: url(../images/gi3.jpg) no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.itemG-4{
+	width: 30%;
+	height: 250px;
+	position: relative;
+	background: url(../images/gi4.jpg) no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.itemG-5{
+	width: 30%;
+	height: 250px;
+	position: relative;
+	background: url(../images/gi5.jpg) no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	margin-bottom: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.itemG-6{
+	width: 70%;
+	height: 250px;
+	position: relative;
+	background: url(../images/gi6.jpg) no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	margin-bottom: 80px;
+	cursor: pointer;
+}

@@ -1,6 +1,6 @@
 /*
   ========================================
-  Общие стили Contacts	
+  Общие стили Gallery
   ========================================
 */
 .navBgContacts{
@@ -64,7 +64,7 @@
 	width: 50%;
 	height: 350px;
 	position: relative;
-	background: url(../images/11.jpg) no-repeat center center;
+	background: url(../images/12.jpg) no-repeat center center;
 	background-attachment: scroll;
 	background-size: cover;
 	padding:  40px;
@@ -88,6 +88,9 @@
 	opacity: 0;
 
 }
+.descr a{
+	text-decoration: none;
+}
 .itemG-1:hover .descr{
 	top: 0;
 	opacity: 1;	
@@ -110,7 +113,7 @@
 	width: 50%;
 	height: 350px;
 	position: relative;
-	background: url(../images/12.jpg) no-repeat center center;
+	background: url(../images/11.jpg) no-repeat center center;
 	background-attachment: scroll;
 	background-size: cover;
 	padding: 40px;
