@@ -130,3 +130,9 @@ nav.menu ul li.tel2{
   Секция с фоном	
   ========================================
 */
+.bg{
+	height: 800px;
+	background-image: url("../img/Header_line.jpg");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+}
