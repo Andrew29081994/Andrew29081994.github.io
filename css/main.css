@@ -43,7 +43,7 @@ content: none;
 /* конец кода сброса стилей браузера */
 /*
   ========================================
-  Общие стили	
+  Меню	
   ========================================
 */
 .container{
@@ -88,4 +88,48 @@ nav.menu ul li.tel2{
 	font-size: 22px;
 	color: #fff;
 	padding-right: 0;
+}
+/*
+  ========================================
+  Вторая секция	
+  ========================================
+*/
+.section_2{
+	text-align: center;
+	padding-top: 150px;
+}
+.logo{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Open Sans';
+	padding-bottom: 30px;
+}
+.text1{
+	font-size: 36px;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Open Sans';
+	padding-bottom: 20px;
+}
+.text_weight{
+	font-weight: 700;
+}
+.tex2{
+	font-size: 36px;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Open Sans';
+	padding-bottom: 240px;
+}
+/*
+  ========================================
+  Секция с фоном	
+  ========================================
+*/
+.bg{
+	height: 600px;
+	background-image: url("../img/Sail.png");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
 }
