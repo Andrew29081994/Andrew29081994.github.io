@@ -55,14 +55,17 @@ content: none;
 .header{
 	background-color: #4DABAB;
 }
+.header_bg{
+	background-color: #4DABAB;
+}
 nav.menu ul{
 	list-style-type: none; 
 	display: inline-block;
 }
 nav.menu ul li{
 	display: inline-block;
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 22px;
+	font-weight: 400;
 	font-family: 'Open Sans';
 	padding-right: 40px;
 	padding-top: 40px;
@@ -73,11 +76,12 @@ nav.menu ul li a{
 	color: #fff;
 }
 nav.menu ul li.offset{
-	margin-right: 120px;
+	margin-right: 70px;
 }
 nav.menu ul li.tel1{
 	color: #fff;
 }
 nav.menu ul li.tel2{
 	color: #fff;
+	padding-right: 0;
 }
