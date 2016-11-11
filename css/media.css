@@ -1,153 +1,54 @@
-/*
-  ========================================
-  Медиа запросы	
-  ========================================
-*/
-/*Для смартфонов*/
-@media (max-width:480px){
-	.header{
-		height: 170px;
-	}
-	.headerBg{
-		background-attachment: scroll; 
-	}
-	.navBg{
-		background-color: rgba(204, 145, 102, 1);
-	}
-	.logo{
-		display: none;
-	}
-	nav li{
-		display: block;
-		text-align: center;
-	}
-	nav ul li{
-		width: 100%;
-		border-bottom: 1px solid black;
-	}
-	nav ul li:last-child{
-		width: 100%;
-		border-bottom: 3px solid black;
-	}
-	nav ul{
-		display: none;
-	}
-	nav a{
-		width: 100% !important;
-		padding: 5px;
-	}
-	.menu-trigger{
-		width: 100%;
-		display: block;
-		text-align: left;
-		border-bottom: 1px solid black;
-	}
-	/*Приветствие и описание сайта*/
-	.padding{
-		padding: 10px;
-	}
-	hr{
-		margin-top: 40px;
-	  	margin-bottom: 40px;
-	}
+/*==========  Desktop First Method  ==========*/
 
-	/*flex элементы*/
-	.flexContainer{
-		display: flex;
-		flex-flow:column wrap;
-	}
-	.flexContainer2{
-		display: flex;
-		flex-flow:column wrap;
-	}
-	.item{
-	width: 100%;
-	}
-	.pennant{
-		display: block;
-	}
-	/*Секция с оверлеем*/
-	.overley{
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-	.overley blockquote{
-		font-size: 16px;
-		padding: 15px 10px 15px 10px;
-	}
-}
-/*Для планшетов*/
-@media (min-width: 481px) and (max-width:768px){
-	.header{
-		height: 300px;
-	}
-	.headerBg{
-		background-attachment: scroll; 
-	}
-	.logo a{
-		margin-top: 60px;
-		font-size: 50px;
-	}
-	nav a{
-		width: auto !important;
-	}
-	/*Приветствие и описание сайта*/
-	.padding{
-		padding: 10px;
-	}
-	/*flex элементы*/
-	.flexContainer{
-	/*width: 90%;
-	margin: 0 auto;*/ 
-		display: flex;
-		flex-flow:column wrap;
-	}
-	.flexContainer2{
-	/*width: 90%;
-	margin: 0 auto;*/ 
-		display: flex;
-		flex-flow:column wrap;
-	}
-	.item{
-		width: 100%;
-	}
-	.pennant{
-		display: block;
-	}
-	hr{
-		margin-top: 50px;
-	  	margin-bottom: 50px;
-	}
-	/*Секция с оверлеем*/
-	.overley{
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-	.overley blockquote{
-		font-size: 20px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
 
 }
-/* стили для ширины крупнее компьютерных мониторов */
-/* стили для ширины 1000 пикселов и выше */
-@media (min-width:769px) {
-	.header{
-		height: 600px;
-	}
-	.headerBg{
-		background-attachment: fixed; 
-	}
-	nav a{
-		width: auto;
-	}
-	/*flex элементы*/
-	.item{
-		padding: 5px;
-	}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
 }
-/* стили для ширины крупнее компьютерных HD-мониторов */
-/* стили для ширины 1200 пикселов и выше */
-@media (min-width: 1200px) {
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
 }
