@@ -97,13 +97,16 @@ nav.menu ul li.tel2{
 .section_2{
 	text-align: center;
 	padding-top: 150px;
+	background-image: url("../img/sails.svg");
+	background-repeat: no-repeat;
+	background-position: 380px 140px;
 }
 .logo{
 	font-size: 48px;
 	color: #fff;
 	font-weight: 500;
 	font-family: 'Open Sans';
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 .text1{
 	font-size: 36px;
@@ -127,9 +130,3 @@ nav.menu ul li.tel2{
   Секция с фоном	
   ========================================
 */
-.bg{
-	height: 600px;
-	background-image: url("../img/Sail.png");
-	background-repeat: no-repeat;
-	background-position: 0% 0%;
-}
