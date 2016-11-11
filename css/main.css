@@ -66,12 +66,16 @@ nav.menu ul li{
 	font-weight: 400;
 	font-family: 'Open Sans';
 	padding-right: 40px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 nav.menu ul li a{
 	text-decoration: none;
 	color: #fff;
+	padding-bottom: 3px;
+}
+nav.menu ul li a:hover{
+	border-bottom: 2px solid #fff;
 }
 nav.menu ul li.offset{
 	margin-right: 180px;
@@ -79,13 +83,9 @@ nav.menu ul li.offset{
 nav.menu ul li.tel1{
 	font-size: 22px;
 	color: #fff;
-	padding-top: 18px;
-	padding-bottom: 24px;
 }
 nav.menu ul li.tel2{
 	font-size: 22px;
 	color: #fff;
 	padding-right: 0;
-	padding-top: 18px;
-	padding-bottom: 24px;
 }
