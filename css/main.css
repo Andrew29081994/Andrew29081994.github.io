@@ -208,11 +208,14 @@ nav.menu ul li.tel2{
 .flex_container_4 a{
 	text-decoration: none;
 }
+.item5_1{
+	padding-left: 40px;
+}
 .item5_2{
 	padding-left: 100px; 
 }
 .item5_3{
-	padding-left: 200px;
+	padding-left: 155px;
 }
 .btn{
 	font-size: 22px;
