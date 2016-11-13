@@ -55,7 +55,7 @@ content: none;
 	background-image: url("../img/Background_Header.jpg");
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
-	background-size: auto 700px; 
+	background-size: contain; 
 }
 .header{
 	/*background-color: #4DABAB;*/
