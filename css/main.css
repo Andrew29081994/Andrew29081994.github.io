@@ -50,11 +50,18 @@ content: none;
 	width: 1200px;
 	margin: 0 auto;
 }
+.primaryContainet{
+	height: 800px;
+	background-image: url("../img/Background_Header.jpg");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-size: auto 700px; 
+}
 .header{
-	background-color: #4DABAB;
+	/*background-color: #4DABAB;*/
 }
 .header_bg{
-	background-color: #4DABAB;
+	/*background-color: #4DABAB;*/
 }
 nav.menu ul{
 	list-style-type: none; 
