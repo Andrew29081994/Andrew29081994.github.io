@@ -50,20 +50,11 @@ content: none;
 	width: 1200px;
 	margin: 0 auto;
 }
-.primaryContainet{
-	width: 100%;
-	height: 800px;
-	background-image: url("../img/Background_Header.jpg");
-	background-repeat: no-repeat;
-	background-position: 0% 0%;
-	background-size: 2160px 700px;
-	background-repeat: repeat-x;
-}
 .header{
-	/*background-color: #4DABAB;*/
+	background-color: #4DABAB;
 }
 .header_bg{
-	/*background-color: #4DABAB;*/
+	background-color: #4DABAB;
 }
 nav.menu ul{
 	list-style-type: none; 
@@ -115,7 +106,7 @@ nav.menu ul li.tel2{
 	color: #fff;
 	font-weight: 500;
 	font-family: 'Open Sans';
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 .text_1{
 	font-size: 36px;
@@ -132,18 +123,7 @@ nav.menu ul li.tel2{
 	color: #fff;
 	font-weight: 400;
 	font-family: 'Open Sans';
-	padding-bottom: 240px;
-}
-/*
-  ========================================
-  Секция с фоном	
-  ========================================
-*/
-.bg{
-	height: 150px;
-	background-image: url("../img/Header_line.jpg");
-	background-repeat: no-repeat;
-	background-position: 0% 0%;
+	padding-bottom: 140px;
 }
 /*
   ========================================
@@ -196,8 +176,58 @@ nav.menu ul li.tel2{
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
 	padding-top: 100px;
-	padding-bottom: 90px;
+	padding-bottom: 40px;
 }
 .text_4{
 	font-family: 'Open Sans';
 }
+/*
+  ========================================
+  Рестораны быстрого питания
+  ========================================
+*/
+.bg_section3{
+	background-color: #4DABAB;
+}
+.section_4{
+	text-align: center;
+}
+.text_5{
+	font-family: 'Open Sans';
+	font-size: 36px;
+	color: #fff;
+}
+.flex_container_4{
+	display: flex;
+}
+.item5{
+	width: 33.3333%;
+	height: 300px;
+	padding-top: 60px;
+} 
+.flex_container_4 a{
+	text-decoration: none;
+}
+.item5_2{
+	padding-left: 100px; 
+}
+.item5_3{
+	padding-left: 200px;
+}
+.btn{
+	font-size: 22px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	width: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 40px;
+	border: 2px solid #fff;
+}
+a.btn:hover{
+	background-color: #fff;
+	color: black; 
+}
+ 
