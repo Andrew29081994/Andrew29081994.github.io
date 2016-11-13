@@ -244,6 +244,21 @@ a.btn:hover{
 }
 .text_7{
 	font-family: 'Open Sans';
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.text_8{
+	font-family: 'Open Sans';
+	font-size: 32px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.text_7_1{
+	font-family: 'Open Sans';
+	font-size: 18px;
+}
+.text_7_2{
+	font-family: 'Open Sans';
 	font-size: 18px;
 }
 .item6{
