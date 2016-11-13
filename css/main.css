@@ -238,18 +238,14 @@ a.btn:hover{
 .section_5{
 	text-align: center;
 }
-.text_6{
-	font-family: 'Open Sans';
-	font-size: 36px;
-}
 .text_7{
 	font-family: 'Open Sans';
-	font-size: 32px;
+	font-size: 36px;
 	margin-bottom: 30px;
 }
 .text_8{
 	font-family: 'Open Sans';
-	font-size: 32px;
+	font-size: 36px;
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
@@ -265,4 +261,66 @@ a.btn:hover{
 	padding-top: 60px;
 	height: 200px;
 	width: 100%;
+}
+/*
+  ========================================
+  Почему мы?
+  ========================================
+*/
+.bg_section6{
+	background-color: #F8F8F8;
+}
+.section_6{
+	text-align: center;
+}
+.text_9{
+	font-family: 'Open Sans';
+	font-size: 36px;
+	margin-bottom: 60px;
+}
+.flex_container_5{
+	display: flex;
+}
+.item8{
+	width: 33.333%;
+	height: 250px;
+	padding-top: 90px;
+}
+.text_10{
+	font-size: 24px;
+	font-family: 'Open Sans';
+	margin-bottom: 30px;
+}
+.text_11{
+	font-family: 'Open Sans';
+}
+.item8_1{
+	background-image: url("../img/section_5/Speed_icon.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
+}
+.item8_2{
+	background-image: url("../img/section_5/Shield.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
+}
+.item8_3{
+	background-image: url("../img/section_5/Smile.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
+}
+.item8_4{
+	background-image: url("../img/section_5/Home.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
+}
+.item8_5{
+	background-image: url("../img/section_5/Hot.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
+}
+.item8_6{
+	background-image: url("../img/section_5/Time.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
 }
