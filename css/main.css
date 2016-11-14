@@ -78,7 +78,7 @@ nav.menu ul li a:hover{
 	border-bottom: 2px solid #fff;
 }
 nav.menu ul li.offset{
-	margin-right: 180px;
+	margin-right: 175px;
 }
 nav.menu ul li.tel1{
 	font-size: 22px;
@@ -190,10 +190,10 @@ nav.menu ul li.tel2{
 */
 .bg_section3{
 	background-color: #4DABAB;
-	padding-top: 100px;
 }
 .section_4{
 	text-align: center;
+	padding-top: 100px;
 }
 .text_5{
 	font-family: 'Open Sans';
@@ -450,7 +450,7 @@ select:focus {
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #4DABAB;
-	transition: all 1s;
+	transition: all .8s;
 }
 .but:hover{
 	background-color: #fff;
