@@ -228,6 +228,7 @@ nav.menu ul li.tel2{
 	padding-bottom: 15px;
 	border-radius: 40px;
 	border: 2px solid #fff;
+	transition: all .8s;
 }
 a.btn:hover{
 	background-color: #fff;
