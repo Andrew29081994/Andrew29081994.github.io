@@ -181,6 +181,7 @@ nav.menu ul li.tel2{
 }
 .text_4{
 	font-family: 'Open Sans';
+	line-height: 1.4;
 }
 /*
   ========================================
@@ -261,6 +262,7 @@ a.btn:hover{
 	font-family: 'Open Sans';
 	font-size: 16px;
 	margin-bottom: 50px;
+	line-height: 1.4;
 }
 .text_7_1_1{
 	font-family: 'Open Sans';
@@ -271,6 +273,7 @@ a.btn:hover{
 	font-family: 'Open Sans';
 	font-size: 16px;
 	margin-bottom: 100px;
+	line-height: 1.4;
 }
 
 /*
@@ -310,6 +313,7 @@ a.btn:hover{
 .text_11{
 	font-family: 'Open Sans';
 	margin-bottom: 100px;
+	line-height: 1.4;
 }
 .item8_1{
 	background-image: url("../img/section_5/Speed_icon.svg");
