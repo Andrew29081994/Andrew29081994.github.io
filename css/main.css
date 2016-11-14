@@ -97,6 +97,7 @@ nav.menu ul li.tel2{
 .section_2{
 	text-align: center;
 	padding-top: 135px;
+	padding-bottom: 180px;
 	background-image: url("../img/sails.svg");
 	background-repeat: no-repeat;
 	background-position: 380px 115px;
@@ -123,7 +124,6 @@ nav.menu ul li.tel2{
 	color: #fff;
 	font-weight: 400;
 	font-family: 'Open Sans';
-	padding-bottom: 140px;
 }
 /*
   ========================================
