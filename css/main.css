@@ -385,6 +385,9 @@ a.btn:hover{
 .form1{
 	margin-bottom: 40px;
 }
+.right{
+	text-align: right;
+}
 /*
   ========================================
   Формы	
@@ -430,31 +433,158 @@ select:focus {
   background-color: #4DABAB;
   border: 2px solid #fff;
   outline: 0; }
-  /*	
+ /*	
   ========================================
   Стили кнопок
   ========================================
 */
-.btn2 {
-	background-color: #4DABAB;
-	font-size: 20px;
+$green: #1ECD97;
+$gray: #bbbbbb;
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.containerBut {
+  width: 130px;
+  height: 40px;
+}
+button {
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid $green;
+  color:$green;
+  letter-spacing:1px;
+  text-shadow:0;
+  font:{
+    size:12px;
+    weight:bold;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color:white;
+    background: $green;
+  }
+  &:active {
+    //letter-spacing: 2px;
+    letter-spacing: 2px ;
+  }
+  &:after {
+    content:"SUBMIT";
+  }
+}
+.onclic {
+  width: 40px;
+  border-color:$gray;
+  border-width:3px;
+  font-size:0;
+  border-left-color:$green;
+  animation: rotating 2s 0.51s linear infinite;
+
+  &:after {
+    content:"";
+  }
+  &:hover {
+    color:$green;
+    background: white;
+  }
+}
+.validate {
+  font-size:13px;
+  color: white;
+  background: $green;
+  &:after {
+    font-family:'FontAwesome';
+    content:"\f00c";
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*	
+  ========================================
+  Футер
+  ========================================
+*/
+.footer_bg{
+	background-color: #f8f8f8;
+}
+.section_8{
+	text-align: center;
+	padding-top: 100px;
+
+}
+.flex_container_90{
+	display: flex;
+}
+.item33{
+	width: 33.333%;
+	height: 60px;
+	margin-bottom: 30px;
+}
+.bg_31{
+	background-image: url("../img/section_8/facebook.svg");
+	background-repeat: no-repeat;
+	background-position: 100% 0%; 
+}
+.bg_32{
+	background-image: url("../img/section_8/vk.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
+}
+.bg_33{
+	background-image: url("../img/section_8/instagram.svg");
+	background-repeat: no-repeat;
+	background-position: 0% 0%; 
+}
+.text_44{
+	font-size: 24px;
 	font-family: 'Open Sans';
+	color: #4DABAB;
+	margin-bottom: 25px;
+}
+.text_45{
+	font-size: 24px;
 	font-weight: 600;
-	color: #fff;
-	width: 150px;
+	color: #4DABAB;
+	background-image: url("../img/section_8/Logo_Sail_color.svg");
+	background-repeat: no-repeat;
+	background-position: 41% 0%;
+	padding-bottom: 30px; 
 	padding-top: 5px;
-	padding-bottom: 5px;
-	border-radius: 40px;
-	border: 2px solid #fff; 
-	text-transform: uppercase;
-	text-decoration: none; 
-	transition-property: background-color;
-	transition-duration: .75s;
 }
-.btn2:hover{
-	background-color: #fff;
-	color: black;
+.flex_container_91{
+	display: flex;
+	padding-bottom: 100px;
 }
-.right{
+.item51{
+	width: 50%;
+	margin-right: 40px;
 	text-align: right;
+}
+.item52{
+	width: 50%;
+	text-align: left;
+}
+
+.text_41{
+	font-size: 22px;
+	font-weight: 300;
+	font-family: 'Open Sans';
+	color: #4DABAB;
+}
+.text_42{
+	font-size: 22px;
+	font-weight: 300;
+	font-family: 'Open Sans';
+	color: #4DABAB;
 }
