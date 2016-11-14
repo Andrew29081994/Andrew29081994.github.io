@@ -46,7 +46,29 @@ content: none;
   Меню	
   ========================================
 */
-.container{
+/**/
+nav.scrollUp {
+  	top: 0;
+  	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+nav.scrollTop {
+  top: 0;
+  padding: 40px 0;
+}
+nav {
+  position: fixed;
+  padding: 5px 0;
+  top: -100px;
+  left: 0;
+  right: 0;
+  background-color: #4DABAB;
+  text-align: center;
+  transition: 0.5s;
+}
+/**/
+.container {
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -66,8 +88,8 @@ nav.menu ul li{
 	font-weight: 400;
 	font-family: 'Open Sans';
 	padding-right: 40px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
 }
 nav.menu ul li a{
 	text-decoration: none;
