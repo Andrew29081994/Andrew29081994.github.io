@@ -9,8 +9,37 @@
 }
 /*Для планшетов*/
 @media (min-width: 481px) and (max-width:768px){
-	
-
+	.container {
+		width: 100%;
+		padding: 0 20px 0 20px; 
+	}
+	nav{
+		display: none;
+	}
+/*
+  ========================================
+  Хедер	
+  ========================================
+*/
+	.section_1{
+		text-align: center;
+		padding-top: 135px;
+		padding-bottom: 125px;
+		background-image: url("../img/tablet/section_1/Sail_Delivery_Tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 32% 38%;
+	}
+	.text_1{
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
+	.text_2{
+		font-size: 22px;
+		padding-bottom: 10px;
+	}
+	.text_3{
+		font-size: 22px;
+	}
 }
 /* стили для ширины крупнее компьютерных мониторов */
 /* стили для ширины 1000 пикселов и выше */

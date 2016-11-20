@@ -46,13 +46,11 @@ content: none;
   Меню	
   ========================================
 */
-/**/
 nav.scrollUp {
   	top: 0;
   	padding-top: 30px;
 	padding-bottom: 30px;
 }
-
 nav.scrollTop {
   top: 0;
   padding: 40px 0;
@@ -67,12 +65,10 @@ nav {
 	text-align: center;
 	transition: 0.5s;
 }
-/**/
 .container {
 	width: 1200px;
 	margin: 0 auto;
 }
-
 .header_bg{
 	background-color: #FA8366;
 }
@@ -110,10 +106,10 @@ nav.menu ul li.tel2{
 }
 /*
   ========================================
-  Вторая секция	
+  Хедер
   ========================================
 */
-.section_2{
+.section_1{
 	text-align: center;
 	padding-top: 235px;
 	padding-bottom: 190px;
@@ -121,14 +117,14 @@ nav.menu ul li.tel2{
 	background-repeat: no-repeat;
 	background-position: 380px 215px;
 }
-.logo{
+.text_1{
 	font-size: 48px;
 	color: #fff;
 	font-weight: 500;
 	font-family: 'Open Sans';
 	padding-bottom: 30px;
 }
-.text_1{
+.text_2{
 	font-size: 36px;
 	color: #fff;
 	font-weight: 400;
@@ -138,7 +134,7 @@ nav.menu ul li.tel2{
 .text_weight{
 	font-weight: 600;
 }
-.text_2{
+.text_3{
 	font-size: 36px;
 	color: #fff;
 	font-weight: 400;
@@ -152,7 +148,7 @@ nav.menu ul li.tel2{
 .section_3{
 	text-align: center;
 }
-.text_3{
+.text_888{
 	font-size: 36px;
 	font-weight: normal;
 	font-family: 'Open Sans';
