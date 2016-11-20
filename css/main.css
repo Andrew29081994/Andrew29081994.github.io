@@ -46,156 +46,156 @@ content: none;
   Меню	
   ========================================
 */
-nav.scrollUp {
-  	top: 0;
-  	padding-top: 30px;
-	padding-bottom: 30px;
-}
-nav.scrollTop {
-  top: 0;
-  padding: 40px 0;
-}
-nav {
-	position: fixed;
-	padding: 5px 0;
-	top: -100px;
-	left: 0;
-	right: 0;
-	background-color: #FA8366;
-	text-align: center;
-	transition: 0.5s;
-}
-.container {
-	width: 1200px;
-	margin: 0 auto;
-}
-.header_bg{
-	background-color: #FA8366;
-}
-nav.menu ul{
-	list-style-type: none; 
-}
-nav.menu ul li{
-	display: inline-block;
-	font-size: 16px;
-	font-weight: 400;
-	font-family: 'Open Sans';
-	padding-right: 40px;
-	/*padding-top: 30px;
-	padding-bottom: 30px;*/
-}
-nav.menu ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding-bottom: 3px;
-}
-nav.menu ul li a:hover{
-	border-bottom: 2px solid #fff;
-}
-nav.menu ul li.offset{
-	margin-right: 175px;
-}
-nav.menu ul li.tel1{
-	font-size: 22px;
-	color: #fff;
-}
-nav.menu ul li.tel2{
-	font-size: 22px;
-	color: #fff;
-	padding-right: 0;
-}
+	nav.scrollUp {
+	  	top: 0;
+	  	padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	nav.scrollTop {
+	  top: 0;
+	  padding: 40px 0;
+	}
+	nav {
+		position: fixed;
+		padding: 5px 0;
+		top: -100px;
+		left: 0;
+		right: 0;
+		background-color: #FA8366;
+		text-align: center;
+		transition: 0.5s;
+	}
+	.container {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.header_bg{
+		background-color: #FA8366;
+	}
+	nav.menu ul{
+		list-style-type: none; 
+	}
+	nav.menu ul li{
+		display: inline-block;
+		font-size: 16px;
+		font-weight: 400;
+		font-family: 'Open Sans';
+		padding-right: 40px;
+		/*padding-top: 30px;
+		padding-bottom: 30px;*/
+	}
+	nav.menu ul li a{
+		text-decoration: none;
+		color: #fff;
+		padding-bottom: 3px;
+	}
+	nav.menu ul li a:hover{
+		border-bottom: 2px solid #fff;
+	}
+	nav.menu ul li.offset{
+		margin-right: 175px;
+	}
+	nav.menu ul li.tel1{
+		font-size: 22px;
+		color: #fff;
+	}
+	nav.menu ul li.tel2{
+		font-size: 22px;
+		color: #fff;
+		padding-right: 0;
+	}
 /*
   ========================================
   Хедер
   ========================================
 */
-.section_1{
-	text-align: center;
-	padding-top: 235px;
-	padding-bottom: 190px;
-	background-image: url("../img/sails.svg");
-	background-repeat: no-repeat;
-	background-position: 380px 215px;
-}
-.text_1{
-	font-size: 48px;
-	color: #fff;
-	font-weight: 500;
-	font-family: 'Open Sans';
-	padding-bottom: 30px;
-}
-.text_2{
-	font-size: 36px;
-	color: #fff;
-	font-weight: 400;
-	font-family: 'Open Sans';
-	padding-bottom: 20px;
-}
-.text_weight{
-	font-weight: 600;
-}
-.text_3{
-	font-size: 36px;
-	color: #fff;
-	font-weight: 400;
-	font-family: 'Open Sans';
-}
+	.section_1{
+		text-align: center;
+		padding-top: 235px;
+		padding-bottom: 190px;
+		background-image: url("../img/sails.svg");
+		background-repeat: no-repeat;
+		background-position: 380px 215px;
+	}
+	.text1_1{
+		font-size: 48px;
+		color: #fff;
+		font-weight: 500;
+		font-family: 'Open Sans';
+		padding-bottom: 30px;
+	}
+	.text1_2{
+		font-size: 36px;
+		color: #fff;
+		font-weight: 400;
+		font-family: 'Open Sans';
+		padding-bottom: 20px;
+	}
+	.text_weight{
+		font-weight: 600;
+	}
+	.text1_3{
+		font-size: 36px;
+		color: #fff;
+		font-weight: 400;
+		font-family: 'Open Sans';
+	}
 /*
   ========================================
   Как мы работаем	
   ========================================
 */
-.section_3{
-	text-align: center;
-}
-.text_888{
-	font-size: 36px;
-	font-weight: normal;
-	font-family: 'Open Sans';
-	margin-bottom: 60px;
-	margin-top: 100px;
-}
-.flex_container{
-	display: flex;
-}
-.item1{
-	width: 25%;
-	background-image: url("../img/section_3/paper_icon_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%;
-	
-}
-.item2{
-	width: 25%;
-	background-image: url("../img/section_3/Burger_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%;
-	
-}
-.item3{
-	width: 25%;
-	background-image: url("../img/section_3/computer_icon_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%;
-	
-}
-.item4{
-	width: 25%;
-	background-image: url("../img/section_3/Car_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%;
-}
-.bgf{
-	background-image: url("../img/section_3/next_icon_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 100% 10%;
-}
-.text_4{
-	font-family: 'Open Sans';
-	line-height: 1.4;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
+	.section_2{
+		text-align: center;
+		padding-top: 100px;
+	}
+	.text_2_1{
+		font-size: 36px;
+		font-weight: normal;
+		font-family: 'Open Sans';
+		margin-bottom: 60px;
+	}
+	.text2_2{
+		font-family: 'Open Sans';
+		line-height: 1.4;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.flex_container2{
+		display: flex;
+	}
+	.item2_1{
+		width: 25%;
+		background-image: url("../img/section_3/paper_icon_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_2{
+		width: 25%;
+		background-image: url("../img/section_3/Burger_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_3{
+		width: 25%;
+		background-image: url("../img/section_3/computer_icon_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_4{
+		width: 25%;
+		background-image: url("../img/section_3/Car_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+	}
+	.items2BG{
+		background-image: url("../img/section_3/next_icon_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 100% 10%;
+	}
 /*
   ========================================
   Рестораны быстрого питания

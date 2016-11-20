@@ -27,20 +27,79 @@
 		padding-bottom: 125px;
 		background: none;
 	}
-	.text_1{
+	.text1_1{
 		font-size: 24px;
 		padding-bottom: 15px;
 		letter-spacing: .25px;
 	}
-	.text_2{
+	.text1_2{
 		font-size: 22px;
 		padding-bottom: 10px;
-		letter-spacing: .5px;
+		letter-spacing: .25px
 	}
-	.text_3{
+	.text1_3{
 		font-size: 22px;
-		letter-spacing: .7px;
+		letter-spacing: .25px
 	}
+/*
+  ========================================
+  Как мы работаем	
+  ========================================
+*/
+	.section_2{
+		padding-top: 50px;
+	}
+	.text_2_1{
+		font-size: 22px;
+		margin-bottom: 30px;
+	}
+	.text2_2{
+		font-family: 'Open Sans';
+		font-size: 12px;
+		line-height: 1.4;
+		padding-top: 60px;
+		padding-bottom: 50px;
+	}
+	.flex_container2{
+		flex-wrap: wrap;
+	}
+	.item2_1{
+		width: 50%;
+		background-image: url("../img/tablet/section_2/paper_icon_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+	
+	}
+	.item2_2{
+		width: 50%;
+		background-image: url("../img/tablet/section_2/Burger_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_3{
+		width: 50%;
+		background-image: url("../img/tablet/section_2/computer_icon_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_4{
+		width: 50%;
+		background-image: url("../img/tablet/section_2/Car_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+	}
+	.items2BG{
+		background-image: url("../img/tablet/section_2/next_icon_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 100% 10%;
+	}
+	.tablet_none{
+		background: none;
+	}
+
+
 }
 /* стили для ширины крупнее компьютерных мониторов */
 /* стили для ширины 1000 пикселов и выше */
