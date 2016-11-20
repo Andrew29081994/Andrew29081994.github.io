@@ -39,7 +39,7 @@
 	}
 	.text1_3{
 		font-size: 22px;
-		letter-spacing: .25px
+		letter-spacing: .25px;
 	}
 /*
   ========================================
@@ -55,10 +55,12 @@
 	}
 	.text2_2{
 		font-family: 'Open Sans';
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 1.4;
 		padding-top: 60px;
 		padding-bottom: 50px;
+		letter-spacing: .15px;
+		line-height: 1.5;
 	}
 	.flex_container2{
 		flex-wrap: wrap;
