@@ -436,10 +436,52 @@
 
 /* стили для ширины крупнее компьютерных мониторов */
 /* стили для ширины 1000 пикселов и выше */
-@media (min-width:769px) {
-	
-}
+@media (min-width:769px) and (max-width: 960px) {
+	.container {
+		width: 100%;
+		padding: 0 20px 0 20px; 
+	}
+	nav{
+		display: none;
+	}
+/*
+  ========================================
+  Хедер
+  ========================================
+*/
+	.section_1{
+		text-align: center;
+		padding-top: 180px;
+		padding-bottom: 130px;
+		background: none;
+	}
+	.text1_1{
+		font-size: 36px;
+		color: #fff;
+		font-weight: 500;
+		font-family: 'Open Sans';
+		margin-bottom: 30px;
+	}
+	.text1_2{
+		font-size: 26px;
+		color: #fff;
+		font-weight: 400;
+		font-family: 'Open Sans';
+		margin-bottom: 20px;
+	}
+	.text_weight{
+		font-weight: 600;
+	}
+	.text1_3{
+		font-size: 26px;
+		color: #fff;
+		font-weight: 400;
+		font-family: 'Open Sans';
+	}
+@media (min-width:769px) and (max-width: 960px) {
+
+}	
 /* стили для ширины крупнее компьютерных HD-мониторов */
 /* стили для ширины 1200 пикселов и выше */
-@media (min-width: 1200px) {
+@media (min-width: 1301px) {
 }
