@@ -235,6 +235,7 @@ content: none;
 		font-size: 22px;
 		font-family: 'Open Sans';
 		font-weight: 600;
+		display: block;
 		color: #fff;
 		width: 200px;
 		padding-top: 15px;
@@ -302,70 +303,70 @@ content: none;
   Почему мы?
   ========================================
 */
-.bg_section6{
-	background-color: #F8F8F8;
-}
-.section_6{
-	text-align: center;
-	padding-top: 100px;
-}
-.text_9{
-	font-family: 'Open Sans';
-	font-size: 36px;
-	margin-bottom: 60px;
-}
-.flex_container_5{
-	display: flex;
-}
-.item8{
-	width: 33.333%;
-	padding-top: 90px;
-}
-.text_10{
-	font-size: 24px;
-	font-family: 'Open Sans';
-	margin-bottom: 30px;
-}
-.text_11_1{
-	font-family: 'Open Sans';
-	margin-bottom: 60px;
-	line-height: 1.4;
-}
-.text_11{
-	font-family: 'Open Sans';
-	margin-bottom: 100px;
-	line-height: 1.4;
-}
-.item8_1{
-	background-image: url("../img/section_5/Speed_icon_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%; 
-}
-.item8_2{
-	background-image: url("../img/section_5/Shield_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%; 
-}
-.item8_3{
-	background-image: url("../img/section_5/Smile_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%; 
-}
-.item8_4{
-	background-image: url("../img/section_5/Home_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%; 
-}
-.item8_5{
-	background-image: url("../img/section_5/Hot_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%; 
-}
-.item8_6{
-	background-image: url("../img/section_5/Time_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%; 
-}
+	.bg_section_5{
+		background-color: #F8F8F8;
+	}
+	.section_5{
+		text-align: center;
+		padding-top: 100px;
+	}
+	.text_5_1{
+		font-family: 'Open Sans';
+		font-size: 36px;
+		margin-bottom: 60px;
+	}
+	.flex_container_5{
+		display: flex;
+	}
+	.item_5{
+		width: 33.333%;
+		padding-top: 90px;
+	}
+	.text_5_2{
+		font-size: 24px;
+		font-family: 'Open Sans';
+		margin-bottom: 30px;
+	}
+	.text_5_3{
+		font-family: 'Open Sans';
+		margin-bottom: 60px;
+		line-height: 1.4;
+	}
+	.text_5_4{
+		font-family: 'Open Sans';
+		margin-bottom: 100px;
+		line-height: 1.4;
+	}
+	.item_5_1{
+		background-image: url("../img/section_5/Speed_icon_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_2{
+		background-image: url("../img/section_5/Shield_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_3{
+		background-image: url("../img/section_5/Smile_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_4{
+		background-image: url("../img/section_5/Home_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_5{
+		background-image: url("../img/section_5/Hot_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_6{
+		background-image: url("../img/section_5/Time_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
 /*
   ========================================
   Оформить заказ

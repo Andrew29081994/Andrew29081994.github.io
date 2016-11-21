@@ -131,6 +131,17 @@
 	}
 /*
   ========================================
+  Рестораны быстрого питания	
+  ========================================
+*/
+	.section_3{
+		padding-top: 50px;
+	}
+	.text_3_1{
+		font-size: 22px;
+	}
+/*
+  ========================================
   Время работы, доставка и оплата
   ========================================
 */
@@ -159,21 +170,70 @@
 		margin-bottom: 50px;
 		line-height: 1.5;
 	}
-
-
-} 
 /*
   ========================================
-  Рестораны быстрого питания	
+  Почему мы?
   ========================================
 */
-	.section_3{
+	.section_5{
 		padding-top: 50px;
 	}
-	.text_3_1{
+	.text_5_1{
 		font-size: 22px;
+		margin-bottom: 30px;
 	}
-}
+	.item_5{
+		width: 33.333%;
+		padding-top: 90px;
+	}
+	.text_5_2{
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.text_5_3{
+		font-size: 13px;
+		margin-bottom: 30px;
+		line-height: 1.5;
+	}
+	.text_5_4{
+		font-size: 13px;
+		margin-bottom: 50px;
+		line-height: 1.5;
+	}
+	.item_5_1{
+		background-image: url("../img/tablet/section_5/Speed_icon_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_2{
+		background-image: url("../img/tablet/section_5//Shield_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_3{
+		background-image: url("../img/tablet/section_5//Smile_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_4{
+		background-image: url("../img/tablet/section_5//Home_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_5{
+		background-image: url("../img/tablet/section_5//Hot_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_6{
+		background-image: url("../img/tablet/section_5//Time_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+
+} 
+
+
 /* стили для ширины крупнее компьютерных мониторов */
 /* стили для ширины 1000 пикселов и выше */
 @media (min-width:769px) {
