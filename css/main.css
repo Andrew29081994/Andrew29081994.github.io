@@ -201,101 +201,101 @@ content: none;
   Рестораны быстрого питания
   ========================================
 */
-.bg_section_3{
-	background-color: #FA8366;
-}
-.section_3{
-	text-align: center;
-	padding-top: 100px;
-}
-.text_3_1{
-	font-family: 'Open Sans';
-	font-size: 36px;
-	color: #fff;
-}
-.flex_container_3{
-	display: flex;
-}
-.item_3{
-	width: 33.3333%;
-	padding-top: 60px;
-	padding-bottom: 100px;
-} 
-.flex_container_3 a{
-	text-decoration: none;
-}
-.item3_2{
-	padding-left: 100px; 
-}
-.item3_3{
-	padding-left: 200px;
-}
-.btn_3{
-	background-color: #FA8366; 
-	font-size: 22px;
-	font-family: 'Open Sans';
-	font-weight: 600;
-	color: #fff;
-	width: 200px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border-radius: 40px;
-	border: 2px solid #fff;
-	transition: all .8s;
-}
-.btn_3 a{
-	color: #fff;
-}
-.btn_3:hover{
-	background-color: #fff;
-	color: black; 
-}
+	.bg_section_3{
+		background-color: #FA8366;
+	}
+	.section_3{
+		text-align: center;
+		padding-top: 100px;
+	}
+	.text_3_1{
+		font-family: 'Open Sans';
+		font-size: 36px;
+		color: #fff;
+	}
+	.flex_container_3{
+		display: flex;
+	}
+	.item_3{
+		width: 33.3333%;
+		padding-top: 60px;
+		padding-bottom: 100px;
+	} 
+	.flex_container_3 a{
+		text-decoration: none;
+	}
+	.item3_2{
+		padding-left: 100px; 
+	}
+	.item3_3{
+		padding-left: 200px;
+	}
+	.btn_3{
+		background-color: #FA8366; 
+		font-size: 22px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		color: #fff;
+		width: 200px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-radius: 40px;
+		border: 2px solid #fff;
+		transition: all .8s;
+	}
+	.btn_3 a{
+		color: #fff;
+	}
+	.btn_3:hover{
+		background-color: #fff;
+		color: black; 
+	}
 
-.btn_3 a:hover{
-	color: black; 
-}
+	.btn_3 a:hover{
+		color: black; 
+	}
 /*
   ========================================
   Время работы, доставка и оплата
   ========================================
 */
-.section_5{
-	text-align: center;
-	padding-top: 100px;
-}
-.text_6{
-	font-family: 'Open Sans';
-	font-size: 36px;
-	margin-bottom: 60px;
-}
-.text_7{
-	font-family: 'Open Sans';
-	font-size: 24px;
-	margin-bottom: 30px;
-}
-.text_8{
-	font-family: 'Open Sans';
-	font-size: 36px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-.text_7_1{
-	font-family: 'Open Sans';
-	font-size: 16px;
-	margin-bottom: 50px;
-	line-height: 1.4;
-}
-.text_7_1_1{
-	font-family: 'Open Sans';
-	font-size: 24px;
-	margin-bottom: 30px;
-}
-.text_7_1_2{
-	font-family: 'Open Sans';
-	font-size: 16px;
-	margin-bottom: 100px;
-	line-height: 1.4;
-}
+	.section_4{
+		text-align: center;
+		padding-top: 100px;
+	}
+	.text_4_1{
+		font-family: 'Open Sans';
+		font-size: 36px;
+		margin-bottom: 60px;
+	}
+	.text_4_2{
+		font-family: 'Open Sans';
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.text_8{
+		font-family: 'Open Sans';
+		font-size: 36px;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.text_4_3{
+		font-family: 'Open Sans';
+		font-size: 16px;
+		margin-bottom: 50px;
+		line-height: 1.4;
+	}
+	.text_4_4{
+		font-family: 'Open Sans';
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.text_4_5{
+		font-family: 'Open Sans';
+		font-size: 16px;
+		margin-bottom: 100px;
+		line-height: 1.4;
+	}
 
 /*
   ========================================
