@@ -212,23 +212,19 @@ content: none;
 		font-family: 'Open Sans';
 		font-size: 36px;
 		color: #fff;
+		margin-bottom: 60px;
 	}
-	.flex_container_3{
-		display: flex;
+	ul.restor li{
+		display: inline-block;
+		margin-bottom: 100px;
 	}
-	.item_3{
-		width: 33.3333%;
-		padding-top: 60px;
-		padding-bottom: 100px;
-	} 
-	.flex_container_3 a{
+
+	ul.restor li a{
 		text-decoration: none;
 	}
-	.item3_2{
-		padding-left: 100px; 
-	}
-	.item3_3{
-		padding-left: 200px;
+	.margin_L_R{
+		margin-left: 100px;
+		margin-right: 100px;
 	}
 /*
   ========================================
