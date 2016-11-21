@@ -399,6 +399,7 @@ content: none;
 	  box-sizing: border-box;
 	  font-size: 18px;
 	  font-family: 'Open Sans';
+	  margin-bottom: 50px;
 	}
 	textarea{
 		height: 250px;/*Говнокод*/

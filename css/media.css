@@ -238,7 +238,7 @@
 		margin-bottom: 30px;
 	}
 	.form1{
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 	}
 /*
   ========================================
@@ -267,6 +267,7 @@
 	  box-sizing: border-box;
 	  font-size: 12px;
 	  font-family: 'Open Sans';
+	  margin-bottom: 25px;
 	}
 	textarea{
 		height: 150px;/*Говнокод*/
