@@ -230,31 +230,6 @@ content: none;
 	.item3_3{
 		padding-left: 200px;
 	}
-	.btn_3{
-		background-color: #FA8366; 
-		font-size: 22px;
-		font-family: 'Open Sans';
-		font-weight: 600;
-		display: block;
-		color: #fff;
-		width: 200px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		border-radius: 40px;
-		border: 2px solid #fff;
-		transition: all .8s;
-	}
-	.btn_3 a{
-		color: #fff;
-	}
-	.btn_3:hover{
-		background-color: #fff;
-		color: black; 
-	}
-
-	.btn_3 a:hover{
-		color: black; 
-	}
 /*
   ========================================
   Время работы, доставка и оплата
@@ -373,188 +348,192 @@ content: none;
   Оформить заказ
   ========================================
 */
-.text_20{
-	font-size: 36px;
-	color: #fff;
-	font-family: 'Open Sans';
-	margin-bottom: 60px;
-}
-.container2{
-	width: 760px;
-	margin: 0 auto;
-	padding-bottom: 100px;
-}
-.bg_section7{
-	background-color: #FA8366;
-}
-.section_7{
-	text-align: center;
-	padding-top: 100px;
-}
-.flex_container_7{
-	display: flex;
-}
-.item10{
-	width: 50%;
-	margin-right: 40px;
-	margin-bottom: 40px;
-}
-.item11{
-	width: 50%;
-}
-.item12{
-	width: 100%;
-}
-.form1{
-	margin-bottom: 40px;
-}
-.right{
-	text-align: right;
-}
+	.bg_section_7{
+		background-color: #FA8366;
+	}
+	.container2{
+		width: 760px;
+		margin: 0 auto;
+		padding-bottom: 100px;
+	}
+	.section_7{
+		text-align: center;
+		padding-top: 100px;
+	}
+	.text_7_1{
+		font-size: 36px;
+		color: #fff;
+		font-family: 'Open Sans';
+		margin-bottom: 60px;
+	}
+	.form_1{
+		margin-bottom: 40px;
+	}
+	.right{
+		text-align: right;
+	}
 /*
   ========================================
   Формы	
   ========================================
 */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  width: 100%;
-  max-width: 100%;
-  min-width: 100%;
-  color: rgba(255, 255, 255, 0.8);
-  height: 60px;/*Говнокод*/
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #FA8366;
-  border: 2px solid #fff;
-  border-radius: 5px;
-  box-shadow: none;
-  box-sizing: border-box;
-  font-size: 18px;
-  font-family: 'Open Sans';
-}
-textarea{
-	height: 250px;/*Говнокод*/
-	max-height: 250px;
-	font-family: 'Open Sans';
-}
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  background-color: #FA8366;
-  border: 2px solid #fff;
-  outline: 0; }
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	textarea,
+	select {
+	  width: 100%;
+	  max-width: 100%;
+	  min-width: 100%;
+	  color: rgba(255, 255, 255, 0.8);
+	  height: 60px;/*Говнокод*/
+	  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+	  background-color: #FA8366;
+	  border: 2px solid #fff;
+	  border-radius: 5px;
+	  box-shadow: none;
+	  box-sizing: border-box;
+	  font-size: 18px;
+	  font-family: 'Open Sans';
+	}
+	textarea{
+		height: 250px;/*Говнокод*/
+		max-height: 250px;
+		font-family: 'Open Sans';
+	}
+	input[type="email"]:focus,
+	input[type="number"]:focus,
+	input[type="search"]:focus,
+	input[type="text"]:focus,
+	input[type="tel"]:focus,
+	input[type="url"]:focus,
+	input[type="password"]:focus,
+	textarea:focus,
+	select:focus {
+	  background-color: #FA8366;
+	  border: 2px solid #fff;
+	  outline: 0; }
  /*	
   ========================================
   Стили кнопок
   ========================================
 */
-.but{
-	width: 150px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	border-radius: 40px;
-	border: 2px solid #fff;
-	font-size: 18px;
-	font-family: 'Open Sans';
-	color: #fff;
-	text-transform: uppercase;
-	background-color: #FA8366;
-	transition: all .8s;
-	cursor: pointer;
-}
-.but:hover{
-	background-color: #fff;
-	color: black;
-}
+	.btn_3{
+		background-color: #FA8366; 
+		font-size: 22px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		display: block;
+		color: #fff;
+		width: 200px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-radius: 40px;
+		border: 2px solid #fff;
+		transition: all .8s;
+	}
+	.btn_3:hover{
+		background-color: #fff;
+		color: black; 
+	}
+	.but{
+		width: 150px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		border-radius: 40px;
+		border: 2px solid #fff;
+		font-size: 18px;
+		font-family: 'Open Sans';
+		color: #fff;
+		text-transform: uppercase;
+		background-color: #FA8366;
+		transition: all .8s;
+		cursor: pointer;
+	}
+	.but:hover{
+		background-color: #fff;
+		color: black;
+	}
 /*	
   ========================================
   Футер
   ========================================
 */
-.footer_bg{
-	background-color: #f8f8f8;
-}
-.section_8{
-	text-align: center;
-	padding-top: 100px;
+	.footer_bg{
+		background-color: #f8f8f8;
+	}
+	.section_8{
+		text-align: center;
+		padding-top: 100px;
 
-}
-.flex_container_90{
-	display: flex;
-}
-.item33{
-	width: 33.333%;
-	height: 60px;
-	margin-bottom: 30px;
-}
-.bg_31{
-	background-image: url("../img/section_8/facebook_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 100% 0%; 
-}
-.bg_32{
-	background-image: url("../img/section_8/vk_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%; 
-}
-.bg_33{
-	background-image: url("../img/section_8/instagram_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 0% 0%; 
-}
-.text_44{
-	font-size: 24px;
-	font-family: 'Open Sans';
-	color: #FA8366;
-	margin-bottom: 20px;
-}
-.text_45{
-	font-size: 24px;
-	font-weight: 600;
-	color: #FA8366;
-	background-image: url("../img/section_8/Sail_orange.svg");
-	background-repeat: no-repeat;
-	background-position: 41% 0%;
-	padding-bottom: 30px; 
-	padding-top: 10px;
-	font-family: 'Open Sans';
-}
-.flex_container_91{
-	display: flex;
-	padding-bottom: 100px;
-}
-.item51{
-	width: 50%;
-	margin-right: 40px;
-	text-align: right;
-}
-.item52{
-	width: 50%;
-	text-align: left;
-}
+	}
+	.flex_container_90{
+		display: flex;
+	}
+	.item33{
+		width: 33.333%;
+		height: 60px;
+		margin-bottom: 30px;
+	}
+	.bg_31{
+		background-image: url("../img/section_8/facebook_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 100% 0%; 
+	}
+	.bg_32{
+		background-image: url("../img/section_8/vk_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.bg_33{
+		background-image: url("../img/section_8/instagram_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 0% 0%; 
+	}
+	.text_44{
+		font-size: 24px;
+		font-family: 'Open Sans';
+		color: #FA8366;
+		margin-bottom: 20px;
+	}
+	.text_45{
+		font-size: 24px;
+		font-weight: 600;
+		color: #FA8366;
+		background-image: url("../img/section_8/Sail_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 41% 0%;
+		padding-bottom: 30px; 
+		padding-top: 10px;
+		font-family: 'Open Sans';
+	}
+	.flex_container_91{
+		display: flex;
+		padding-bottom: 100px;
+	}
+	.item51{
+		width: 50%;
+		margin-right: 40px;
+		text-align: right;
+	}
+	.item52{
+		width: 50%;
+		text-align: left;
+	}
 
-.text_41{
-	font-size: 22px;
-	font-weight: 300;
-	font-family: 'Open Sans';
-	color: #FA8366;
-}
-.text_42{
-	font-size: 22px;
-	font-weight: 300;
-	font-family: 'Open Sans';
-	color: #FA8366;
-}
+	.text_41{
+		font-size: 22px;
+		font-weight: 300;
+		font-family: 'Open Sans';
+		color: #FA8366;
+	}
+	.text_42{
+		font-size: 22px;
+		font-weight: 300;
+		font-family: 'Open Sans';
+		color: #FA8366;
+	}
