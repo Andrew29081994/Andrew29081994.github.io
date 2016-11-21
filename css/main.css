@@ -161,7 +161,7 @@ content: none;
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
-	.flex_container2{
+	.flex_container_2{
 		display: flex;
 	}
 	.item2_1{
@@ -201,41 +201,41 @@ content: none;
   Рестораны быстрого питания
   ========================================
 */
-.bg_section3{
+.bg_section_3{
 	background-color: #FA8366;
 }
-.section_4{
+.section_3{
 	text-align: center;
 	padding-top: 100px;
 }
-.text_5{
+.text_3_1{
 	font-family: 'Open Sans';
 	font-size: 36px;
 	color: #fff;
 }
-.flex_container_4{
+.flex_container_3{
 	display: flex;
 }
-.item5{
+.item_3{
 	width: 33.3333%;
 	padding-top: 60px;
 	padding-bottom: 100px;
 } 
-.flex_container_4 a{
+.flex_container_3 a{
 	text-decoration: none;
 }
-.item5_2{
+.item3_2{
 	padding-left: 100px; 
 }
-.item5_3{
+.item3_3{
 	padding-left: 200px;
 }
-.btn{
+.btn_3{
+	background-color: #FA8366; 
 	font-size: 22px;
 	font-family: 'Open Sans';
 	font-weight: 600;
 	color: #fff;
-	display: block;
 	width: 200px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -243,8 +243,15 @@ content: none;
 	border: 2px solid #fff;
 	transition: all .8s;
 }
-a.btn:hover{
+.btn_3 a{
+	color: #fff;
+}
+.btn_3:hover{
 	background-color: #fff;
+	color: black; 
+}
+
+.btn_3 a:hover{
 	color: black; 
 }
 /*

@@ -62,7 +62,7 @@
 		letter-spacing: .15px;
 		line-height: 1.5;
 	}
-	.flex_container2{
+	.flex_container_2{
 		flex-wrap: wrap;
 	}
 	.item2_1{
@@ -100,8 +100,48 @@
 	.tablet_none{
 		background: none;
 	}
+	.item_3{
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.item3_2{
+		padding-left: 0; 
+
+	}
+	.item3_3{
+		padding-left: 0;
+	}
+	.btn_3{
+		font-size: 14px;
+		font-weight: 600;
+		display: block;
+		width: 120px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 40px;
+		border: 2px solid #fff;
+		transition: all .8s;
+	}
+	a.btn_3:hover{
+		background-color: #fff;
+		color: black; 
+	}
 
 
+
+
+} 
+/*
+  ========================================
+  Рестораны быстрого питания	
+  ========================================
+*/
+	.section_3{
+		padding-top: 50px;
+	}
+	.text_3_1{
+		font-size: 22px;
+	}
 }
 /* стили для ширины крупнее компьютерных мониторов */
 /* стили для ширины 1000 пикселов и выше */
