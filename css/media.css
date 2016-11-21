@@ -452,21 +452,15 @@
 	.section_1{
 		text-align: center;
 		padding-top: 180px;
-		padding-bottom: 130px;
+		padding-bottom: 140px;
 		background: none;
 	}
 	.text1_1{
 		font-size: 36px;
-		color: #fff;
-		font-weight: 500;
-		font-family: 'Open Sans';
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.text1_2{
 		font-size: 26px;
-		color: #fff;
-		font-weight: 400;
-		font-family: 'Open Sans';
 		margin-bottom: 20px;
 	}
 	.text_weight{
@@ -474,10 +468,62 @@
 	}
 	.text1_3{
 		font-size: 26px;
-		color: #fff;
-		font-weight: 400;
-		font-family: 'Open Sans';
 	}
+/*
+  ========================================
+  Как мы работаем	
+  ========================================
+*/
+	.section_2{
+		text-align: center;
+		padding-top: 100px;
+	}
+	.text_2_1{
+		font-size: 26px;
+		font-weight: normal;
+		font-family: 'Open Sans';
+		margin-bottom: 60px;
+	}
+	.text2_2{
+		font-family: 'Open Sans';
+		line-height: 1.4;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.flex_container_2{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item2_1{
+		width: 50%;
+		background-image: url("../img/section_3/paper_icon_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_2{
+		width: 50%;
+		background-image: url("../img/section_3/Burger_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_3{
+		width: 50%;
+		background-image: url("../img/section_3/computer_icon_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		
+	}
+	.item2_4{
+		width: 50%;
+		background-image: url("../img/section_3/Car_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+	}
+	.items2BG{
+		background: none;
+	}	
 @media (min-width:769px) and (max-width: 960px) {
 
 }	
