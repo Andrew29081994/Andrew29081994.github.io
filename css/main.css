@@ -317,6 +317,7 @@ content: none;
 	}
 	.flex_container_5{
 		display: flex;
+		flex-wrap: wrap;
 	}
 	.item_5{
 		width: 33.333%;

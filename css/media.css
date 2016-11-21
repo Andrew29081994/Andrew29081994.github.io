@@ -178,13 +178,16 @@
 	.section_5{
 		padding-top: 50px;
 	}
+	.flex_container_5{
+		flex-wrap: wrap;
+	}
 	.text_5_1{
 		font-size: 22px;
 		margin-bottom: 30px;
 	}
 	.item_5{
-		width: 33.333%;
-		padding-top: 90px;
+		width: 50%;
+		padding-top: 55px;
 	}
 	.text_5_2{
 		font-size: 16px;
