@@ -232,6 +232,7 @@
 	}
 	.section_7{
 		padding-top: 50px;
+		padding-bottom: 50px !important;
 	}
 	.text_7_1{
 		font-size: 22px;
@@ -273,6 +274,7 @@
 		height: 150px;/*Говнокод*/
 		max-height: 150px;
 		font-family: 'Open Sans';
+		margin-bottom: 25px !important;
 	}
 	input[type="email"]:focus,
 	input[type="number"]:focus,
@@ -324,6 +326,79 @@
 		background-color: #fff;
 		color: black;
 	}
+/*	
+  ========================================
+  Футер
+  ========================================
+*/
+	.footer_bg{
+		background-color: #f8f8f8;
+	}
+	.section_8{
+		text-align: center;
+		padding-top: 50px;
+
+	}
+	ul.contact li{
+		display: inline-block;
+		margin-bottom: 15px;
+	}
+	ul.contact li a{
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	.bg_8_1{
+		background-image: url("../img/tablet/section_8/facebook_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+	}
+	.bg_8_2{
+		background-image: url("../img/tablet/section_8/vk_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	.bg_8_3{
+		background-image: url("../img/tablet/section_8/instagram_tablet.svg");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+	}
+	.text_8_1{
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+	.text_8_2{
+		background: none;
+		font-size: 13px;
+		font-weight: 600;
+		margin-bottom: 15px; 
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	.flex_container_8_2{
+		display: flex;
+		padding-bottom: 50px;
+	}
+	.item51{
+		width: 50%;
+		margin-right: 40px;
+		text-align: right;
+	}
+	.item52{
+		width: 50%;
+		text-align: left;
+	}
+
+	.text_8_3{
+		font-size: 13px;
+		font-weight: 300;
+	}
+	.text_8_4{
+		font-size: 13px;
+		font-weight: 300;
+	}	
 
 } 
 @media (min-width: 671px) and (max-width: 768px){

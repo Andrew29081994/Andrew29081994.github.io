@@ -472,36 +472,39 @@ content: none;
 		padding-top: 100px;
 
 	}
-	.flex_container_90{
-		display: flex;
-	}
-	.item33{
-		width: 33.333%;
-		height: 60px;
+	ul.contact li{
+		display: inline-block;
 		margin-bottom: 30px;
 	}
-	.bg_31{
+	ul.contact li a{
+		display: block;
+		height: 60px;
+		width: 60px;
+	}
+	.bg_8_1{
 		background-image: url("../img/section_8/facebook_orange.svg");
 		background-repeat: no-repeat;
-		background-position: 100% 0%; 
+		background-position: 0% 0%;
 	}
-	.bg_32{
+	.bg_8_2{
 		background-image: url("../img/section_8/vk_orange.svg");
 		background-repeat: no-repeat;
-		background-position: 50% 0%; 
+		background-position: 0% 0%;
+		margin-right: 90px;
+		margin-left: 90px;
 	}
-	.bg_33{
+	.bg_8_3{
 		background-image: url("../img/section_8/instagram_orange.svg");
 		background-repeat: no-repeat;
-		background-position: 0% 0%; 
+		background-position: 0% 0%;
 	}
-	.text_44{
+	.text_8_1{
 		font-size: 24px;
 		font-family: 'Open Sans';
 		color: #FA8366;
 		margin-bottom: 20px;
 	}
-	.text_45{
+	.text_8_2{
 		font-size: 24px;
 		font-weight: 600;
 		color: #FA8366;
@@ -512,7 +515,7 @@ content: none;
 		padding-top: 10px;
 		font-family: 'Open Sans';
 	}
-	.flex_container_91{
+	.flex_container_8_2{
 		display: flex;
 		padding-bottom: 100px;
 	}
@@ -526,13 +529,13 @@ content: none;
 		text-align: left;
 	}
 
-	.text_41{
+	.text_8_3{
 		font-size: 22px;
 		font-weight: 300;
 		font-family: 'Open Sans';
 		color: #FA8366;
 	}
-	.text_42{
+	.text_8_4{
 		font-size: 22px;
 		font-weight: 300;
 		font-family: 'Open Sans';
