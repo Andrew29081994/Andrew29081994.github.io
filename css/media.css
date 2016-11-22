@@ -232,15 +232,12 @@
   Оформить заказ
   ========================================
 */
-	.bg_section7{
-		background-color: #FA8366;
-	}
 	.container2{
 		width: 100%;
 		padding: 0 40px 0 40px; 
 	}
 	.section_7{
-		padding-top: 50px;
+		padding-top: 50px!important;
 		padding-bottom: 50px !important;
 	}
 	.text_7_1{
@@ -424,15 +421,25 @@
   Оформить заказ
   ========================================
 */
+	.section_7{
+		padding-top: 50px!important;
+		padding-bottom: 50px !important;
+	}
 	.container2{
-		width: 100%;
 		padding: 0 80px 0 80px; 
 	}
-	.section_7{
-		padding-top: 50px;
-	}	
 }
-
+@media (min-width: 680px) and (max-width: 768px){
+/*
+  ========================================
+  Оформить заказ
+  ========================================
+*/
+	.container2{
+		padding: 0 110px 0 110px; 
+	}		
+		
+}
 /* стили для ширины крупнее компьютерных мониторов */
 /* стили для ширины 1000 пикселов и выше */
 @media (min-width:769px) and (max-width: 960px) {
