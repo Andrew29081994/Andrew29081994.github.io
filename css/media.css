@@ -718,40 +718,38 @@
   Стили кнопок
   ========================================
 */
-	.btn_3{
-		background-color: #FA8366; 
-		font-size: 22px;
-		font-family: 'Open Sans';
-		font-weight: 600;
-		display: block;
-		color: #fff;
-		width: 200px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		border-radius: 40px;
-		border: 2px solid #fff;
-		transition: all .8s;
-	}
-	.btn_3:hover{
-		background-color: #fff;
-		color: black; 
-	}
 	.but{
 		width: 140px;
 		padding-bottom: 8px;
 		padding-top: 8px;
-		border-radius: 40px;
-		border: 2px solid #fff;
-		font-size: 18px;
-		font-family: 'Open Sans';
-		color: #fff;
-		background-color: #FA8366;
-		transition: all .8s;
-		cursor: pointer;
 	}
-	.but:hover{
-		background-color: #fff;
-		color: black;
+/*	
+  ========================================
+  Футер
+  ========================================
+*/
+	.section_8{
+		padding-top: 80px;
+	}
+	ul.contact li{
+		margin-bottom: 20px;
+	}
+	.text_8_2{
+		font-size: 20px;
+		background: none;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 20px; 
+
+	}
+	.flex_container_8_2{
+		padding-bottom: 80px;
+	}
+	.text_8_3{
+		font-size: 18px;
+	}
+	.text_8_4{
+		font-size: 18px;
 	}	
 
 @media (min-width:960px) and (max-width: 1200px) {
