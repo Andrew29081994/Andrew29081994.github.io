@@ -325,7 +325,6 @@
 		font-size: 12px;
 		font-family: 'Open Sans';
 		color: #fff;
-		text-transform: uppercase;
 		background-color: #FA8366;
 		transition: all .8s;
 		cursor: pointer;
@@ -419,7 +418,7 @@
 	}
 }
 @media (min-width: 561px) and (max-width: 768px){
-	/*
+/*
   ========================================
   Оформить заказ
   ========================================
@@ -486,7 +485,7 @@
 	.text2_2{
 		font-family: 'Open Sans';
 		line-height: 1.4;
-		padding-top: 90px;
+		padding-top: 80px;
 		padding-bottom: 40px;
 	}
 	.text2_2_adapt{
@@ -541,7 +540,7 @@
 	}
 	.text_3_1{
 		font-size: 30px;
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 	ul.restor li{
 		display: inline-block;
@@ -555,6 +554,99 @@
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+/*
+  ========================================
+  Время работы, доставка и оплата
+  ========================================
+*/
+	.section_4{
+		padding-top: 80px;
+	}
+	.text_4_1{
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	.text_4_2{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.text_4_3{
+		font-size: 16px;
+		margin-bottom: 40px;
+	}
+	.text_4_4{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.text_4_5{
+		font-size: 16px;
+		margin-bottom: 80px;
+	}	
+/*
+  ========================================
+  Почему мы?
+  ========================================
+*/
+	.section_5{
+		padding-top: 80px;
+	}
+	.text_5_1{
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	.flex_container_5{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item_5{
+		width: 33.333%;
+		padding-top: 80px;
+	}
+	.text_5_2{
+		font-size: 24px;
+		font-family: 'Open Sans';
+		margin-bottom: 20px;
+	}
+	.text_5_3{
+		font-family: 'Open Sans';
+		margin-bottom: 40px;
+		line-height: 1.4;
+	}
+	.text_5_4{
+		font-family: 'Open Sans';
+		margin-bottom: 80px;
+		line-height: 1.4;
+	}
+	.item_5_1{
+		background-image: url("../img/section_5/Speed_icon_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_2{
+		background-image: url("../img/section_5/Shield_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_3{
+		background-image: url("../img/section_5/Smile_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_4{
+		background-image: url("../img/section_5/Home_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_5{
+		background-image: url("../img/section_5/Hot_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}
+	.item_5_6{
+		background-image: url("../img/section_5/Time_orange.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 0%; 
+	}	
 
 @media (min-width:960px) and (max-width: 1200px) {
 
