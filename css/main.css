@@ -158,7 +158,7 @@ content: none;
 	.text2_2{
 		font-family: 'Open Sans';
 		line-height: 1.4;
-		padding-top: 100px;
+		padding-top: 90px;
 		padding-bottom: 100px;
 	}
 	.flex_container_2{
@@ -262,7 +262,6 @@ content: none;
 		margin-bottom: 100px;
 		line-height: 1.4;
 	}
-
 /*
   ========================================
   Почему мы?
@@ -286,12 +285,12 @@ content: none;
 	}
 	.item_5{
 		width: 33.333%;
-		padding-top: 90px;
+		padding-top: 80px;
 	}
 	.text_5_2{
 		font-size: 24px;
 		font-family: 'Open Sans';
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.text_5_3{
 		font-family: 'Open Sans';
@@ -342,7 +341,7 @@ content: none;
 		background-color: #FA8366;
 	}
 	.container2{
-		width: 760px;
+		width: 680px;
 		margin: 0 auto;
 	}
 	.section_7{
@@ -389,11 +388,11 @@ content: none;
 	  box-sizing: border-box;
 	  font-size: 18px;
 	  font-family: 'Open Sans';
-	  margin-bottom: 50px;
+	  margin-bottom: 40px;
 	}
 	textarea{
-		height: 250px;/*Говнокод*/
-		max-height: 250px;
+		height: 200px;/*Говнокод*/
+		max-height: 200px;
 		font-family: 'Open Sans';
 	}
 	input[type="email"]:focus,
@@ -459,7 +458,6 @@ content: none;
 	.section_8{
 		text-align: center;
 		padding-top: 100px;
-
 	}
 	ul.contact li{
 		display: inline-block;
