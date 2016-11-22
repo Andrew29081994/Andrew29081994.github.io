@@ -166,33 +166,33 @@ content: none;
 	}
 	.item2_1{
 		width: 25%;
-		background-image: url("../img/section_3/paper_icon_orange.svg");
+		background-image: url("../img/section_2/paper_icon_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 		
 	}
 	.item2_2{
 		width: 25%;
-		background-image: url("../img/section_3/Burger_orange.svg");
+		background-image: url("../img/section_2/Burger_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 		
 	}
 	.item2_3{
 		width: 25%;
-		background-image: url("../img/section_3/computer_icon_orange.svg");
+		background-image: url("../img/section_2/computer_icon_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 		
 	}
 	.item2_4{
 		width: 25%;
-		background-image: url("../img/section_3/Car_orange.svg");
+		background-image: url("../img/section_2/Car_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 	}
 	.items2BG{
-		background-image: url("../img/section_3/next_icon_orange.svg");
+		background-image: url("../img/section_2/next_icon_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 100% 10%;
 	}
@@ -407,7 +407,7 @@ content: none;
 	  background-color: #FA8366;
 	  border: 2px solid #fff;
 	  outline: 0; }
- /*	
+/*	
   ========================================
   Стили кнопок
   ========================================
@@ -527,4 +527,4 @@ content: none;
 		font-weight: 300;
 		font-family: 'Open Sans';
 		color: #FA8366;
-	}
+	}	
