@@ -46,6 +46,13 @@ content: none;
   Меню	
   ========================================
 */
+	.menu_icon{
+		width: 100%;
+		height: 80px;
+		background-image: url("../img/Menu.svg");
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+	}
 	nav.scrollUp {
 	  	top: 0;
 	  	padding-top: 30px;
