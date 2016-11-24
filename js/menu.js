@@ -21,3 +21,8 @@ $(window).scroll(function() {
   lastScrollTop = st; 
 
 });
+
+
+$('.menu_icon').click(function(){
+  $('.drop_down').slideToggle(500);
+});// end click
