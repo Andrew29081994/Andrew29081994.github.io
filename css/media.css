@@ -84,8 +84,8 @@
   ========================================
 */
 	.section_1{
-		padding-top: 160px;
-		padding-bottom: 160px;
+		padding-top: 180px;
+		padding-bottom: 180px;
 		background: none;
 	}
 	.text1_1{
@@ -105,11 +105,11 @@
   ========================================
 */
 	.section_2{
-		padding-top: 40px;
-		padding-bottom: 25px;
+		padding-top: 60px;
+		padding-bottom: 35px;
 	}
 	.text_2_1{
-		font-size: 24px;
+		font-size: 28px;
 		margin-bottom: 30px;
 	}
 	.text2_2{
@@ -158,11 +158,11 @@
   ========================================
 */
 	.section_3{
-		padding-top: 40px;
-		padding-bottom: 20px !important;
+		padding-top: 60px;
+		padding-bottom: 35px !important;
 	}
 	.text_3_1{
-		font-size: 24px;
+		font-size: 28px;
 		margin-bottom: 30px;
 	}
 	ul.restor{
@@ -185,14 +185,14 @@
   ========================================
 */
 	.section_4{
-		padding-top: 40px;
+		padding-top: 60px;
 	}
 	.text_4_1{
-		font-size: 24px;
+		font-size: 28px;
 		margin-bottom: 30px;
 	}
 	.text_4_2{
-		font-size: 20px;
+		font-size: 24px;
 		margin-bottom: 20px;
 	}
 	.text_4_3{
@@ -200,12 +200,12 @@
 		margin-bottom: 25px;
 	}
 	.text_4_4{
-		font-size: 20px;
+		font-size: 24px;
 		margin-bottom: 20px;
 	}
 	.text_4_5{
 		font-size: 16px;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 	}
 /*
   ========================================
@@ -213,11 +213,11 @@
   ========================================
 */
 	.section_5{
-		padding-top: 40px;
-		padding-bottom: 20px;
+		padding-top: 60px;
+		padding-bottom: 40px;
 	}
 	.text_5_1{
-		font-size: 24px;
+		font-size: 28px;
 		margin-bottom: 30px;
 	}
 	.flex_container_5{
@@ -228,7 +228,7 @@
 		padding-top: 80px;
 	}
 	.text_5_2{
-		font-size: 20px;
+		font-size: 24px;
 		margin-bottom: 15px;
 	}
 	.text_5_3{
@@ -282,11 +282,11 @@
 	}
 	.section_7{
 		text-align: center;
-		padding-top: 40px;
-		padding-bottom: 40px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 	}
 	.text_7_1{
-		font-size: 22px;
+		font-size: 28px;
 		margin-bottom: 30px;
 	}
 	.form_1{
@@ -325,8 +325,8 @@
 	  margin-bottom: 25px;
 	}
 	textarea{
-		height: 130px;/*Говнокод*/
-		max-height: 130px;
+		height: 150px;/*Говнокод*/
+		max-height: 150px;
 		margin-bottom: 20px !important;
 	}
 	input[type="email"]:focus,
@@ -371,7 +371,7 @@
   ========================================
 */
 	.section_8{
-		padding-top: 40px;
+		padding-top: 60px;
 	}
 	ul.contact li{
 		display: inline-block;
@@ -400,17 +400,17 @@
 		background-position: 0% 0%;
 	}
 	.text_8_1{
-		font-size: 16px;
+		font-size: 22px;
 		margin-bottom: 20px;
 	}
 	.text_8_2{
-		font-size: 16px;
+		font-size: 24px;
 		background: none;
 		padding-top: 0;
 		padding-bottom: 20px; 
 	}
 	.flex_container_8_2{
-		padding-bottom: 40px;
+		padding-bottom: 60px;
 	}
 	.item51{
 		width: 50%;
@@ -516,12 +516,12 @@
 		background: none;
 	}
 	.text1_1{
-		font-size: 24px;
+		font-size: 26px;
 		margin-bottom: 15px;
 		letter-spacing: .25px;
 	}
 	.text1_2{
-		font-size: 22px;
+		font-size: 24px;
 		margin-bottom: 10px;
 		padding-bottom: 0px;
 		letter-spacing: .25px
@@ -536,18 +536,19 @@
   ========================================
 */
 	.section_2{
-		padding-top: 50px;
+		padding-top: 80px;
+		padding-bottom: 50px;
 	}
 	.text_2_1{
-		font-size: 22px;
-		margin-bottom: 30px;
+		font-size: 24px;
+		margin-bottom: 40px;
 	}
 	.text2_2{
 		font-family: 'Open Sans';
-		font-size: 13px;
+		font-size: 16px;
 		line-height: 1.4;
-		padding-top: 55px;
-		padding-bottom: 50px;
+		padding-top: 80px;
+		padding-bottom: 30px;
 		letter-spacing: .15px;
 		line-height: 1.5;
 	}
@@ -556,35 +557,35 @@
 	}
 	.item2_1{
 		width: 50%;
-		background-image: url("../img/tablet/section_2/paper_icon_tablet.svg");
+		background-image: url("../img/section_2/paper_icon_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 	
 	}
 	.item2_2{
 		width: 50%;
-		background-image: url("../img/tablet/section_2/Burger_tablet.svg");
+		background-image: url("../img/section_2/Burger_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 		
 	}
 	.item2_3{
 		width: 50%;
-		background-image: url("../img/tablet/section_2/computer_icon_tablet.svg");
+		background-image: url("../img/section_2/computer_icon_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 		
 	}
 	.item2_4{
 		width: 50%;
-		background-image: url("../img/tablet/section_2/Car_tablet.svg");
+		background-image: url("../img/section_2/Car_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 	}
 	.items2BG{
-		background-image: url("../img/tablet/section_2/next_icon_tablet.svg");
+		background-image: url("../img/section_2/next_icon_orange.svg");
 		background-repeat: no-repeat;
-		background-position: 100% 10%;
+		background-position: 100% 15%;
 	}
 	.tablet_none{
 		background: none;
@@ -600,23 +601,20 @@
 	.item3_3{
 		padding-left: 0;
 	}
-	.right_3{
-		text-align: center;
-	}
 /*
   ========================================
   Рестораны быстрого питания
   ========================================
 */
 	.section_3{
-		padding-top: 50px;
+		padding-top: 80px;
 	}
 	.text_3_1{
-		font-size: 22px;
-		margin-bottom: 30px;
+		font-size: 28px;
+		margin-bottom: 40px;
 	}
 	ul.restor li{
-		margin-bottom: 50px;
+		margin-bottom: 80px;
 	}
 	.margin_L_R{
 		margin-left: 30px;
@@ -628,28 +626,28 @@
   ========================================
 */
 	.section_4{
-		padding-top: 50px;
+		padding-top: 80px;
 	}
 	.text_4_1{
-		font-size: 22px;
-		margin-bottom: 30px;
+		font-size: 28px;
+		margin-bottom: 40px;
 	}
 	.text_4_2{
-		font-size: 16px;
-		margin-bottom: 15px;
+		font-size: 22px;
+		margin-bottom: 20px;
 	}
 	.text_4_3{
-		font-size: 13px;
-		margin-bottom: 25px;
+		font-size: 16px;
+		margin-bottom: 30px;
 		line-height: 1.5;
 	}
 	.text_4_4{
-		font-size: 16px;
-		margin-bottom: 15px;
+		font-size: 22px;
+		margin-bottom: 20px;
 	}
 	.text_4_5{
-		font-size: 13px;
-		margin-bottom: 50px;
+		font-size: 16px;
+		margin-bottom: 80px;
 		line-height: 1.5;
 	}
 /*
@@ -658,60 +656,60 @@
   ========================================
 */
 	.section_5{
-		padding-top: 50px;
+		padding-top: 80px;
 	}
 	.flex_container_5{
 		flex-wrap: wrap;
 	}
 	.text_5_1{
-		font-size: 22px;
-		margin-bottom: 30px;
+		font-size: 28px;
+		margin-bottom: 40px;
 	}
 	.item_5{
 		width: 50%;
-		padding-top: 55px;
+		padding-top: 80px;
 	}
 	.text_5_2{
-		font-size: 16px;
+		font-size: 22px;
 		margin-bottom: 15px;
 	}
 	.text_5_3{
-		font-size: 13px;
+		font-size: 16px;
 		margin-bottom: 30px;
 		line-height: 1.5;
 	}
 	.text_5_4{
-		font-size: 13px;
-		margin-bottom: 50px;
+		font-size: 16px;
+		margin-bottom: 80px;
 		line-height: 1.5;
 	}
 	.item_5_1{
-		background-image: url("../img/tablet/section_5/Speed_icon_tablet.svg");
+		background-image: url("../img/section_5/Speed_icon_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%; 
 	}
 	.item_5_2{
-		background-image: url("../img/tablet/section_5//Shield_tablet.svg");
+		background-image: url("../img/section_5//Shield_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%; 
 	}
 	.item_5_3{
-		background-image: url("../img/tablet/section_5//Smile_tablet.svg");
+		background-image: url("../img/section_5//Smile_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%; 
 	}
 	.item_5_4{
-		background-image: url("../img/tablet/section_5//Home_tablet.svg");
+		background-image: url("../img/section_5//Home_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%; 
 	}
 	.item_5_5{
-		background-image: url("../img/tablet/section_5//Hot_tablet.svg");
+		background-image: url("../img/section_5//Hot_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%; 
 	}
 	.item_5_6{
-		background-image: url("../img/tablet/section_5//Time_tablet.svg");
+		background-image: url("../img/section_5//Time_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 0%; 
 	}
@@ -722,15 +720,16 @@
 */
 	.container2{
 		width: 100%;
-		padding: 0 40px 0 40px; 
+		padding-left: 40px;
+		padding-right: 40px; 
 	}
 	.section_7{
-		padding-top: 50px!important;
-		padding-bottom: 50px !important;
+		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 	.text_7_1{
-		font-size: 22px;
-		margin-bottom: 30px;
+		font-size: 28px;
+		margin-bottom: 40px;
 	}
 	.form1{
 		margin-bottom: 20px;
@@ -753,14 +752,14 @@
 	  max-width: 100%;
 	  min-width: 100%;
 	  color: rgba(255, 255, 255, 0.8);
-	  height: 40px;/*Говнокод*/
+	  height: 50px;/*Говнокод*/
 	  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
 	  background-color: #FA8366;
 	  border: 2px solid #fff;
 	  border-radius: 5px;
 	  box-shadow: none;
 	  box-sizing: border-box;
-	  font-size: 13px;
+	  font-size: 16px;
 	  font-family: 'Open Sans';
 	  margin-bottom: 25px;
 	}
@@ -788,12 +787,12 @@
   ========================================
 */
 	.btn_3{
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: 600;
 		display: block;
-		width: 120px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		width: 150px;
+		padding-top: 13px;
+		padding-bottom: 13.px;
 		border-radius: 40px;
 		border: 2px solid #fff;
 		transition: all .8s;
@@ -803,68 +802,54 @@
 		color: black; 
 	}
 	.but{
-		width: 110px;
-		padding-bottom: 7px;
-		padding-top: 7px;
+		width: 140px;
+		padding-bottom: 9px;
+		padding-top: 9px;
 		border-radius: 40px;
 		border: 2px solid #fff;
-		font-size: 13px;
-		font-family: 'Open Sans';
-		color: #fff;
-		background-color: #FA8366;
-		transition: all .8s;
-		cursor: pointer;
-	}
-	.but:hover{
-		background-color: #fff;
-		color: black;
+		font-size: 16px;
 	}
 /*	
   ========================================
   Футер
   ========================================
 */
-	.footer_bg{
-		background-color: #f8f8f8;
-	}
 	.section_8{
-		text-align: center;
-		padding-top: 50px;
-
+		padding-top: 80px;
 	}
 	ul.contact li{
 		display: inline-block;
-		margin-bottom: 15px;
+		margin-bottom: 30px;
 	}
 	ul.contact li a{
 		display: block;
-		height: 40px;
-		width: 40px;
+		height: 60px;
+		width: 60px;
 	}
 	.bg_8_1{
-		background-image: url("../img/tablet/section_8/facebook_tablet.svg");
+		background-image: url("../img/section_8/facebook_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 0% 0%;
 	}
 	.bg_8_2{
-		background-image: url("../img/tablet/section_8/vk_tablet.svg");
+		background-image: url("../img/section_8/vk_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 0% 0%;
 		margin-right: 50px;
 		margin-left: 50px;
 	}
 	.bg_8_3{
-		background-image: url("../img/tablet/section_8/instagram_tablet.svg");
+		background-image: url("../img/section_8/instagram_orange.svg");
 		background-repeat: no-repeat;
 		background-position: 0% 0%;
 	}
 	.text_8_1{
-		font-size: 13px;
+		font-size: 20px;
 		margin-bottom: 15px;
 	}
 	.text_8_2{
 		background: none;
-		font-size: 13px;
+		font-size: 20px;
 		font-weight: 600;
 		margin-bottom: 15px; 
 		padding-bottom: 0px;
@@ -872,7 +857,7 @@
 	}
 	.flex_container_8_2{
 		display: flex;
-		padding-bottom: 50px;
+		padding-bottom: 80px;
 	}
 	.item51{
 		width: 50%;
@@ -893,30 +878,6 @@
 		font-weight: 300;
 	}	
 }/*Конец диапазона 480 - 760*/
-@media (min-width: 671px) and (max-width: 768px){
-/*
-========================================
-Почему мы?
-========================================
-*/
-	.item_5{
-		width: 33.333%;
-	}
-}
-@media (min-width: 561px) and (max-width: 768px){
-/*
-  ========================================
-  Оформить заказ
-  ========================================
-*/
-	.section_7{
-		padding-top: 50px!important;
-		padding-bottom: 50px !important;
-	}
-	.container2{
-		padding: 0 60px 0 60px; 
-	}
-}
 @media (min-width: 680px) and (max-width: 768px){
 /*
   ========================================
@@ -924,7 +885,8 @@
   ========================================
 */
 	.container2{
-		padding: 0 110px 0 110px; 
+		padding-left: 70px;
+		padding-right: 70px; 
 	}		
 		
 }
