@@ -48,7 +48,7 @@
 		font-size: 16px;
 		font-weight: 400;
 		font-family: 'Open Sans';
-		padding-right: 40px;
+		padding-right: 0;
 		/*padding-top: 30px;*/
 		padding-bottom: 20px;
 		background-color: #FA8366;
@@ -74,7 +74,7 @@
 		font-weight: 600;
 		font-size: 18px;
 		color: #fff;
-		padding-right: 40px;
+		padding-right: 0px;
 		padding-bottom: 50px;
 
 	}	
@@ -84,8 +84,8 @@
   ========================================
 */
 	.section_1{
-		padding-top: 90px;
-		padding-bottom: 70px;
+		padding-top: 120px;
+		padding-bottom: 120px;
 		background: none;
 	}
 	.text1_1{
@@ -475,7 +475,7 @@
 		font-size: 16px;
 		font-weight: 400;
 		font-family: 'Open Sans';
-		padding-right: 40px;
+		padding-right: 0px;
 		/*padding-top: 30px;*/
 		padding-bottom: 20px;
 	}
@@ -500,7 +500,7 @@
 		font-weight: 600;
 		font-size: 18px;
 		color: #fff;
-		padding-right: 40px;
+		padding-right: 00px;
 		padding-bottom: 50px;
 
 	}	
