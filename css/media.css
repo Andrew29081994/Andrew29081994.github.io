@@ -412,7 +412,6 @@
 		padding-right: 40px;
 		/*padding-top: 30px;*/
 		padding-bottom: 20px;
-		background-color: #FA8366;
 	}
 	nav.menu ul li a{
 		text-decoration: none;
@@ -436,6 +435,7 @@
 		font-size: 18px;
 		color: #fff;
 		padding-right: 40px;
+		padding-bottom: 50px;
 
 	}	
 /*
@@ -935,6 +935,7 @@
 		font-size: 18px;
 		color: #fff;
 		padding-right: 40px;
+		padding-bottom: 50px;
 
 	}	
 /*
