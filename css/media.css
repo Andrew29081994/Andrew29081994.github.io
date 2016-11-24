@@ -824,7 +824,7 @@
 		height: 60px;
 		background-image: url("../img/Menu.svg");
 		background-repeat: no-repeat;
-		background-position: 95% 25px;
+		background-position: 5% 25px;
 	}
 	nav.scrollUp {
 	  	top: 0;
@@ -849,11 +849,11 @@
 	nav.menu ul li{
 		display: block;
 		font-size: 16px;
-		font-weight: 400;
+		font-weight: 600;
 		font-family: 'Open Sans';
 		padding-right: 40px;
 		/*padding-top: 30px;*/
-		padding-bottom: 15px;
+		padding-bottom: 20px;
 	}
 	nav.menu ul li a{
 		text-decoration: none;
