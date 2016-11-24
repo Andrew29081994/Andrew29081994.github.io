@@ -45,7 +45,7 @@
 	}
 	nav.menu ul li{
 		display: block;
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: 400;
 		font-family: 'Open Sans';
 		padding-right: 0;
@@ -67,12 +67,12 @@
 	}
 	nav.menu ul li.tel1{
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 22px;
 		color: #fff;
 	}
 	nav.menu ul li.tel2{
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 22px;
 		color: #fff;
 		padding-right: 0px;
 		padding-bottom: 50px;
@@ -472,7 +472,7 @@
 	}
 	nav.menu ul li{
 		display: block;
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: 400;
 		font-family: 'Open Sans';
 		padding-right: 0px;
@@ -493,12 +493,12 @@
 	}
 	nav.menu ul li.tel1{
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 22px;
 		color: #fff;
 	}
 	nav.menu ul li.tel2{
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 22px;
 		color: #fff;
 		padding-right: 00px;
 		padding-bottom: 50px;
@@ -516,18 +516,18 @@
 		background: none;
 	}
 	.text1_1{
-		font-size: 26px;
+		font-size: 30px;
 		margin-bottom: 15px;
 		letter-spacing: .25px;
 	}
 	.text1_2{
-		font-size: 24px;
+		font-size: 28px;
 		margin-bottom: 10px;
 		padding-bottom: 0px;
 		letter-spacing: .25px
 	}
 	.text1_3{
-		font-size: 22px;
+		font-size: 26px;
 		letter-spacing: .25px;
 	}
 /*
@@ -933,7 +933,7 @@
 	}
 	nav.menu ul li{
 		display: block;
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: 400;
 		font-family: 'Open Sans';
 		padding-right: 40px;
@@ -955,12 +955,12 @@
 	}
 	nav.menu ul li.tel1{
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 22px;
 		color: #fff;
 	}
 	nav.menu ul li.tel2{
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 22px;
 		color: #fff;
 		padding-right: 40px;
 		padding-bottom: 50px;
