@@ -10,8 +10,74 @@
 		padding: 0 20px 0 20px; 
 	}
 	nav{
+		display: block;
+	}
+	.menu_icon{
+		display: block;
+	}
+	.drop_down{
 		display: none;
 	}
+/*
+  ========================================
+  Меню	
+  ========================================
+*/
+	nav.scrollUp {
+	  	top: 0;
+	  	padding: 0 !important;
+	  	/*padding-top: 30px;
+		padding-bottom: 30px;*/
+	}
+	nav.scrollTop {
+	  top: 0;
+	  padding: 0 !important;
+	}
+		nav {
+		position: fixed;
+		padding: 5px 0;
+		top: -100px;
+		left: 0;
+		right: 0;
+		background-color: #FA8366;
+		text-align: center;
+		transition: 0.5s;
+	}
+	nav.menu ul li{
+		display: block;
+		font-size: 16px;
+		font-weight: 400;
+		font-family: 'Open Sans';
+		padding-right: 40px;
+		/*padding-top: 30px;*/
+		padding-bottom: 20px;
+		background-color: #FA8366;
+	}
+	nav.menu ul li a{
+		text-decoration: none;
+		color: #fff;
+		padding-bottom: 3px;
+		font-weight: 600px;
+	}
+	nav.menu ul li a:hover{
+		border-bottom: 2px solid #fff;
+	}
+	nav.menu ul li.offset{
+		margin-right: 0;
+	}
+	nav.menu ul li.tel1{
+		font-weight: 600;
+		font-size: 18px;
+		color: #fff;
+	}
+	nav.menu ul li.tel2{
+		font-weight: 600;
+		font-size: 18px;
+		color: #fff;
+		padding-right: 40px;
+		padding-bottom: 50px;
+
+	}	
 /*
   ========================================
   Хедер
